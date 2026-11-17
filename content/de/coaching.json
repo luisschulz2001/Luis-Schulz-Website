@@ -4,12 +4,12 @@
     "description": "Persönliches 1:1-Triathlon-Coaching: enge Begleitung, Antwort in unter 3 Stunden (täglich 6–22 Uhr), Day-to-day-Planung in TrainingPeaks."
   },
   "title": "Triathlon-Coaching",
-  "lead": "Coaching ist für mich Beziehung, nicht Dienstleistung. Ich begleite Sie persönlich und hands-on – mit echtem Interesse an Ihnen als Mensch, schnellen Antworten und einer Planung, die sich Tag für Tag an Ihr Leben anpasst.",
+  "lead": "Coaching ist für mich Beziehung, nicht Dienstleistung. Ich begleite Dich persönlich und hands-on – mit echtem Interesse an Dir als Mensch, schnellen Antworten und einer Planung, die sich Tag für Tag an Dein Leben anpasst.",
   "image": null,
   "offer": {
     "title": "Premium Coaching",
     "audience": "Persönliche 1:1-Betreuung",
-    "text": "Ich kenne meine Athletinnen und Athleten – ihre Ziele, ihren Alltag, ihre Stärken und auch die Tage, an denen es nicht läuft. Genau das macht gutes Coaching aus. Wir sind laufend im Gespräch: Müde Beine, Dienstreise, ein krankes Kind oder ein Top-Tag – ich passe Ihr Training sofort an. Bei Bedarf planen wir Tag für Tag.",
+    "text": "Ich kenne meine Athletinnen und Athleten – ihre Ziele, ihren Alltag, ihre Stärken und auch die Tage, an denen es nicht läuft. Genau das macht gutes Coaching aus. Wir sind laufend im Gespräch: Müde Beine, Dienstreise, ein krankes Kind oder ein Top-Tag – ich passe Dein Training sofort an. Bei Bedarf planen wir Tag für Tag.",
     "highlights": [
       {
         "value": "1:1",
@@ -25,12 +25,12 @@
       }
     ],
     "features": [
-      "Eine persönliche Beziehung auf Augenhöhe – ich kenne Sie, nicht nur Ihre Daten",
+      "Eine persönliche Beziehung auf Augenhöhe – ich kenne Dich, nicht nur Deine Daten",
       "Täglich von 6 bis 22 Uhr erreichbar",
       "Antwort in weniger als 3 Stunden",
       "Day-to-day-Planung nach Bedarf in TrainingPeaks",
       "Sofortige Anpassung an Alltag, Form und Gesundheit",
-      "Analyse Ihrer Trainings- und Leistungsdaten",
+      "Analyse Deiner Trainings- und Leistungsdaten",
       "Saison- und Wettkampfplanung",
       "Pacing-, Ernährungs- und Rennstrategie",
       "Persönliches Briefing vor jedem Rennen"
@@ -42,15 +42,15 @@
   "process": [
     {
       "title": "Persönliches Kennenlernen",
-      "text": "Im kostenlosen Erstgespräch lernen wir uns kennen: Ihre Ziele, Ihre Geschichte, Ihr Alltag."
+      "text": "Im kostenlosen Erstgespräch lernen wir uns kennen: Deine Ziele, Deine Geschichte, Dein Alltag."
     },
     {
       "title": "Analyse",
-      "text": "Ich werte Ihre bisherigen Trainingsdaten aus und lege die Ausgangsbasis fest."
+      "text": "Ich werte Deine bisherigen Trainingsdaten aus und lege die Ausgangsbasis fest."
     },
     {
       "title": "Start in TrainingPeaks",
-      "text": "Ihr Training wird in TrainingPeaks geplant – übersichtlich auf Handy, Uhr und Radcomputer."
+      "text": "Dein Training wird in TrainingPeaks geplant – übersichtlich auf Handy, Uhr und Radcomputer."
     },
     {
       "title": "Laufend im Gespräch",
@@ -59,20 +59,20 @@
   ],
   "faq": [
     {
-      "question": "Wie schnell antworten Sie?",
+      "question": "Wie schnell antwortest Du?",
       "answer": "Ich bin täglich von 6 bis 22 Uhr erreichbar und antworte in dieser Zeit in weniger als 3 Stunden."
     },
     {
       "question": "Über welche Plattform läuft die Trainingsplanung?",
-      "answer": "Über TrainingPeaks. Dort sehen Sie Ihre Einheiten, können sie auf Uhr und Radcomputer übertragen und Ihre Daten werden automatisch synchronisiert – so habe ich Ihr Training jederzeit im Blick."
+      "answer": "Über TrainingPeaks. Dort siehst Du Deine Einheiten, kannst sie auf Uhr und Radcomputer übertragen und Deine Daten werden automatisch synchronisiert – so habe ich Dein Training jederzeit im Blick."
     },
     {
       "question": "Was heißt Day-to-day-Planung?",
-      "answer": "Statt eines starren Wochenplans können wir Ihr Training bei Bedarf jeden Tag neu festlegen – passend zu Ihrer Form, Ihrem Schlaf und Ihrem Terminkalender."
+      "answer": "Statt eines starren Wochenplans können wir Dein Training bei Bedarf jeden Tag neu festlegen – passend zu Deiner Form, Deinem Schlaf und Deinem Terminkalender."
     },
     {
-      "question": "Warum ist Ihnen die persönliche Beziehung so wichtig?",
-      "answer": "Weil Training nur funktioniert, wenn es zum Menschen passt. Je besser ich Sie kenne, desto besser kann ich einschätzen, was Sie gerade brauchen – fordern, bremsen oder einfach zuhören."
+      "question": "Warum ist Dir die persönliche Beziehung so wichtig?",
+      "answer": "Weil Training nur funktioniert, wenn es zum Menschen passt. Je besser ich Dich kenne, desto besser kann ich einschätzen, was Du gerade brauchst – fordern, bremsen oder einfach zuhören."
     },
     {
       "question": "Für wen ist das Coaching geeignet?",

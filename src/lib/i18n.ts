@@ -47,7 +47,7 @@ const dictionaries = {
     home: { upcomingTitle: "Nächste Rennen", testimonialsTitle: "Stimmen" },
     about: { facts: "Steckbrief", timeline: "Werdegang" },
     coaching: { offer: "Das Angebot", faq: "Häufige Fragen", included: "Enthalten" },
-    partners: { current: "Partner & Unterstützer", none: "Hier ist Platz für Ihre Marke." },
+    partners: { current: "Partner & Unterstützer", none: "Hier ist Platz für Deine Marke." },
     contact: {
       formTitle: "Nachricht schreiben",
       directTitle: "Direkt per E-Mail",
@@ -66,9 +66,9 @@ const dictionaries = {
       consentLink: "Datenschutzerklärung",
       submit: "Nachricht senden",
       sending: "Wird gesendet …",
-      success: "Danke! Ihre Nachricht ist angekommen – ich melde mich zeitnah.",
-      error: "Das hat leider nicht geklappt. Bitte schreiben Sie direkt eine E-Mail.",
-      invalid: "Bitte füllen Sie alle Felder aus und bestätigen Sie den Datenschutzhinweis.",
+      success: "Danke! Deine Nachricht ist angekommen – ich melde mich zeitnah.",
+      error: "Das hat leider nicht geklappt. Bitte schreib mir direkt eine E-Mail.",
+      invalid: "Bitte füll alle Felder aus und bestätige den Datenschutzhinweis.",
       emailLabels: {
         general: "Allgemein",
         coaching: "Coaching",
@@ -79,10 +79,10 @@ const dictionaries = {
     booking: {
       consentTitle: "Terminkalender laden",
       consentText:
-        "Der Kalender wird von einem externen Anbieter bereitgestellt. Beim Laden werden Daten (z. B. Ihre IP-Adresse) an diesen übertragen.",
+        "Der Kalender wird von einem externen Anbieter bereitgestellt. Beim Laden werden Daten (z. B. Deine IP-Adresse) an diesen übertragen.",
       load: "Kalender anzeigen",
       openExternal: "In neuem Tab öffnen",
-      missing: "Die Online-Terminbuchung ist bald verfügbar – schreiben Sie mir gern eine Nachricht.",
+      missing: "Die Online-Terminbuchung ist bald verfügbar – schreib mir gern eine Nachricht.",
     },
     footer: { imprint: "Impressum", privacy: "Datenschutz", rights: "Alle Rechte vorbehalten." },
     legal: { imprint: "Impressum", privacy: "Datenschutzerklärung" },
