@@ -1,11 +1,11 @@
 {
   "seo": {
-    "title": "Luis Schulz – Triathlet und Coach",
-    "description": "Ich bin Luis, Triathlet und ab 2027 Profi. Hier findest Du meine Rennen, mein Coaching und wie Du mich unterstützen kannst."
+    "title": "Luis Schulz – Pro-Triathlet und Coach",
+    "description": "Ich bin Luis, Pro-Triathlet und Coach aus der Region München. Hier findest Du meine Rennen, mein Coaching und wie Du mich unterstützen kannst."
   },
-  "heroEyebrow": "Triathlet · Profi ab 2027",
-  "heroTitle": "Ich bin Luis. Triathlet und Coach.",
-  "heroText": "Ich komme aus der Region München, liebe die Langdistanz und starte ab 2027 als Profi. Außerdem trainiere ich ein paar Athletinnen und Athleten, die ich persönlich begleite.",
+  "heroEyebrow": "Pro-Triathlet · Coach",
+  "heroTitle": "Ich bin Luis. Pro-Triathlet und Coach.",
+  "heroText": "Ich komme aus der Region München und liebe die Langdistanz. Außerdem trainiere ich ein paar Athletinnen und Athleten, die ich persönlich begleite.",
   "heroImage": "/images/home/roth-rad-zuschauer.jpg",
   "introTitle": "Schön, dass Du hier bist",
   "introText": "2020 habe ich mit dem Laufen angefangen, Ende 2022 kam der Triathlon dazu. Seitdem hat mich dieser Sport nicht mehr losgelassen. Meine schönsten Rennen waren bisher meine beiden Starts bei der Challenge Roth: 2025 der Sieg in meiner Altersklasse, 2026 Top 10 aller Age-Grouper.\n\nAls Coach interessiert mich die Sportwissenschaft, aber vor allem interessieren mich die Menschen. Für jede Person eine eigene Lösung zu finden, macht mir große Freude.",
@@ -22,7 +22,7 @@
     },
     {
       "title": "Partner",
-      "text": "Ich suche Unternehmen, die mich auf dem Weg in den Profisport begleiten.",
+      "text": "Ich suche Unternehmen, die mich als Pro-Triathlet begleiten.",
       "href": "partners"
     }
   ],

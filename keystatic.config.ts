@@ -257,7 +257,7 @@ export default config({
       schema: {
         name: fields.text({ label: "Name" }),
         businessName: fields.text({ label: "Name des Gewerbes", description: "Erscheint im Footer und im Impressum" }),
-        role_de: fields.text({ label: "Rolle (Deutsch), z. B. „Profi-Triathlet & Coach“" }),
+        role_de: fields.text({ label: "Rolle (Deutsch), z. B. „Pro-Triathlet & Coach“" }),
         role_en: fields.text({ label: "Rolle (Englisch)" }),
         location: fields.text({ label: "Ort" }),
         emails: fields.object(
