@@ -26,6 +26,7 @@ type Seo = { title: string; description: string };
 
 export type Settings = {
   name: string;
+  businessName: string;
   role_de: string;
   role_en: string;
   location: string;

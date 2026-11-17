@@ -59,7 +59,7 @@ export async function Footer({ locale, dict, settings }: { locale: Locale; dict:
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col gap-3 py-6 text-sm sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {year} {settings.name}. {dict.footer.rights}
+            © {year} {settings.businessName || settings.name}. {dict.footer.rights}
           </p>
           <div className="flex gap-6">
             <Link href={href(locale, "imprint")} className="hover:text-white">

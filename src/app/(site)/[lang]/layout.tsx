@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { getSettings } from "@/lib/content";
 import { getDictionary, hasLocale, href, locales, siteUrl } from "@/lib/i18n";
+import { ogImage } from "@/lib/metadata";
 import "../../globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -28,6 +29,10 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
   return {
     metadataBase: new URL(siteUrl),
     title: { default: `${settings.name} – ${role}`, template: `%s` },
+    openGraph: {
+      siteName: "Luis Schulz Endurance Coaching",
+      images: [ogImage(lang === "en" ? "en" : "de")],
+    },
   };
 }
 
