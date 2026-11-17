@@ -6,7 +6,7 @@
   "title": "About me",
   "lead": "I've been running since 2020 and got into triathlon at the end of 2022. From 2027 I'm racing as a professional.",
   "image": "/images/about/roth-zieleinlauf.jpg",
-  "body": "It all started in 2020 with running. At the end of 2022 swimming and cycling came along, and triathlon hasn't let go of me since.\n\nUp to and including 2025 I coached myself entirely, from my first run to my first long distance.\n\nI'm from the Munich area. My home, Bavaria, means a lot to me.\n\n## My favourite distance\n\nWhat excites me most is long-distance racing. I like to race these with nothing held back. My best races so far were my two starts at Challenge Roth. In 2025 it was my first long distance ever, almost three years after getting into triathlon. I finished in 8:40:32 and won my age group (AK 20). In 2026 I finished in 8:28:20, in the top 10 of all age-groupers.\n\n## Why I coach\n\nI'm very interested in sports science, but above all I'm interested in people. Finding the right approach for each person gives me a lot of joy. To me, there is no plan that fits everyone.",
+  "body": "It all started in 2020 with running. At the end of 2022 swimming and cycling came along, and triathlon hasn't let go of me since.\n\nUp to and including 2025 I coached myself entirely, from my first run to my first long distance. In 2026 a good friend from the sports institute supported me scientifically. I still did the daily planning myself.\n\nI'm from the Munich area. My home, Bavaria, means a lot to me.\n\n## My favourite distance\n\nWhat excites me most is long-distance racing. I like to race these with nothing held back. My best races so far were my two starts at Challenge Roth. In 2025 it was my first long distance ever, almost three years after getting into triathlon. I finished in 8:40:32 and won my age group (AK 20). In 2026 I finished in 8:28:20, in the top 10 of all age-groupers.\n\n## Why I coach\n\nI'm very interested in sports science, but above all I'm interested in people. Finding the right approach for each person gives me a lot of joy. To me, there is no plan that fits everyone.",
   "facts": [
     {
       "label": "Running since",
@@ -17,8 +17,8 @@
       "value": "Late 2022"
     },
     {
-      "label": "Self-coached",
-      "value": "2020 to 2025"
+      "label": "Own training planning",
+      "value": "since 2020"
     },
     {
       "label": "Favourite distance",
@@ -64,7 +64,7 @@
     {
       "year": "2026",
       "title": "Back in Roth",
-      "text": "8:28:20 and top 10 of all age-groupers."
+      "text": "With scientific support: 8:28:20 and top 10 of all age-groupers."
     },
     {
       "year": "2027",
