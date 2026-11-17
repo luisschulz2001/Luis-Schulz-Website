@@ -1,82 +1,79 @@
 {
   "seo": {
-    "title": "Triathlon coaching – Luis Schulz",
-    "description": "Personal 1:1 triathlon coaching: close support, replies in under 3 hours (daily 6am–10pm), day-to-day planning in TrainingPeaks."
+    "title": "Coaching – Luis Schulz",
+    "description": "Personal triathlon coaching: training planned in TrainingPeaks and adjusted daily when needed. I reply within 3 hours, every day between 6am and 10pm."
   },
-  "title": "Triathlon coaching",
-  "lead": "To me, coaching is a relationship, not a service. I support you personally and hands-on – with genuine interest in you as a person, fast replies and planning that adapts to your life day by day.",
+  "title": "Coaching",
+  "lead": "I deliberately coach only a few athletes because I want to know each of them well. How are you feeling, how did you sleep, what's going on at work? To me that's as much a part of training as watts and pace.",
   "image": null,
   "offer": {
-    "title": "Premium Coaching",
-    "audience": "Personal 1:1 support",
-    "text": "I know my athletes – their goals, their everyday life, their strengths and the days when things don't go to plan. That's what good coaching is about. We stay in ongoing contact: heavy legs, a business trip, a sick child or a great day – I adjust your training right away. When needed, we plan day by day.",
+    "title": "1:1 Coaching",
+    "audience": "Personal coaching",
+    "text": "I plan your training in TrainingPeaks, look at your sessions and we stay in touch. If you're tired, have a last-minute business trip or feel really good, I adjust the plan. Day by day if needed.",
     "highlights": [
       {
         "value": "1:1",
-        "label": "Personal, not anonymous"
+        "label": "You deal with me directly"
       },
       {
         "value": "< 3 h",
-        "label": "Response time · daily 6am–10pm"
+        "label": "to a reply, daily 6am to 10pm"
       },
       {
-        "value": "Day to day",
-        "label": "Planning in TrainingPeaks"
+        "value": "Daily",
+        "label": "plan adjustments when needed"
       }
     ],
     "features": [
-      "A personal relationship on equal terms – I know you, not just your data",
-      "Available every day from 6am to 10pm",
-      "Replies in under 3 hours",
-      "Day-to-day planning in TrainingPeaks when needed",
-      "Immediate adjustments to life, form and health",
-      "Analysis of your training and performance data",
-      "Season and race planning",
-      "Pacing, nutrition and race strategy",
-      "Personal briefing before every race"
+      "I plan your training individually in TrainingPeaks",
+      "When needed, I adjust the plan every day",
+      "I'm available daily from 6am to 10pm and reply within 3 hours",
+      "I review your training data regularly",
+      "We plan your season and races together",
+      "Before each race we talk through pacing, nutrition and tactics"
     ],
-    "price": "on request",
-    "note": "Limited spots – because a personal relationship takes time."
+    "price": "Price on request",
+    "note": "I only take on a few athletes so I have enough time for each of them."
   },
-  "processTitle": "How it works",
+  "processTitle": "How we start",
   "process": [
     {
-      "title": "Getting to know each other",
-      "text": "In a free intro call we get to know each other: your goals, your story, your everyday life."
+      "title": "We get to know each other",
+      "text": "In a free intro call you tell me where you are and where you want to go. And I tell you how I work."
     },
     {
-      "title": "Analysis",
-      "text": "I review your training data and define the starting point."
+      "title": "I look at your training",
+      "text": "If you already train with a watch or bike computer, I review your data."
     },
     {
-      "title": "Start in TrainingPeaks",
-      "text": "Your training is planned in TrainingPeaks – clear on your phone, watch and bike computer."
+      "title": "We get going",
+      "text": "You get your plan in TrainingPeaks and load sessions straight to your watch and bike computer."
     },
     {
-      "title": "Ongoing conversation",
-      "text": "We stay in close contact and adjust training whenever needed – day by day if required."
+      "title": "We keep at it",
+      "text": "You give me feedback and I adjust. That's what makes the difference in the end."
     }
   ],
   "faq": [
     {
-      "question": "How fast do you reply?",
-      "answer": "I'm available every day from 6am to 10pm and reply within 3 hours during that time."
+      "question": "How quickly do you reply?",
+      "answer": "Within 3 hours, every day between 6am and 10pm."
     },
     {
-      "question": "Which platform do you use for planning?",
-      "answer": "TrainingPeaks. You see your sessions there, can sync them to your watch and bike computer, and your data uploads automatically – so I always have your training in view."
+      "question": "Why do you coach only a few athletes?",
+      "answer": "Because I want to know each of them. I want to notice when something is getting too much before it shows up in the data. That only works if we talk regularly."
     },
     {
-      "question": "What does day-to-day planning mean?",
-      "answer": "Instead of a rigid weekly plan, we can set your training fresh each day when needed – matched to your form, your sleep and your schedule."
+      "question": "Why TrainingPeaks?",
+      "answer": "Because it simply works. You see your sessions on your phone, they sync to your watch and I can see straight after training how it went."
     },
     {
-      "question": "Why is the personal relationship so important to you?",
-      "answer": "Because training only works when it fits the person. The better I know you, the better I can judge what you need right now – a push, a brake or simply someone who listens."
+      "question": "What does day-by-day planning mean?",
+      "answer": "When your life needs it, I don't plan the whole week ahead. We look at what makes sense each day."
     },
     {
       "question": "Who is the coaching for?",
-      "answer": "Ambitious athletes who want close, personal support – from a first triathlon to the full distance."
+      "answer": "Anyone who takes triathlon seriously and wants close support. Whether you're just starting out or planning your next full distance."
     }
   ]
 }

@@ -1,33 +1,33 @@
 {
   "seo": {
-    "title": "Luis Schulz – Profi-Triathlet & Coach",
-    "description": "Luis Schulz startet ab 2027 als Profi-Triathlet. Persönliches Triathlon-Coaching, Rennkalender und Partnerschaften."
+    "title": "Luis Schulz – Triathlet und Coach",
+    "description": "Ich bin Luis, Triathlet und ab 2027 Profi. Hier findest Du meine Rennen, mein Coaching und wie Du mich unterstützen kannst."
   },
-  "heroEyebrow": "Profi-Triathlet ab 2027",
-  "heroTitle": "Schwimmen. Radfahren. Laufen. Ohne Kompromisse.",
-  "heroText": "Ich bin Luis Schulz – Triathlet auf dem Weg in den Profisport und Coach für Athletinnen und Athleten, die ihr volles Potenzial ausschöpfen wollen.",
+  "heroEyebrow": "Triathlet · Profi ab 2027",
+  "heroTitle": "Ich bin Luis. Triathlet und Coach.",
+  "heroText": "Ab 2027 starte ich als Profi. Außerdem trainiere ich ein paar Athletinnen und Athleten, die ich persönlich begleite.",
   "heroImage": null,
-  "introTitle": "Leistung entsteht aus Konsequenz",
-  "introText": "Hinter jedem Rennen stehen tausende Trainingsstunden, ein durchdachter Plan und der Wille, jeden Tag ein bisschen besser zu werden.\n\nAb der Saison 2027 starte ich als Profi. Mein Wissen aus Training, Wettkampf und Trainingswissenschaft gebe ich als Coach weiter – strukturiert, ehrlich und individuell.",
+  "introTitle": "Schön, dass Du hier bist",
+  "introText": "Auf dieser Seite erfährst Du, wo ich herkomme, welche Rennen ich plane und wie es mir dabei ergeht.\n\nDu erfährst auch, wie ich als Coach arbeite. Ich trainiere selbst jeden Tag und weiß, wie sich ein harter Trainingsblock anfühlt. Diese Erfahrung steckt in jedem Plan, den ich schreibe.",
   "pillars": [
     {
-      "title": "Athlet",
-      "text": "Mein Weg in den Profi-Triathlon – Werdegang, Ziele und Saisonplanung.",
+      "title": "Über mich",
+      "text": "Woher ich komme und was ich mir vorgenommen habe.",
       "href": "about"
     },
     {
       "title": "Coaching",
-      "text": "Persönliche 1:1-Betreuung: enge Beziehung, Antwort in unter 3 Stunden, Day-to-day-Planung in TrainingPeaks.",
+      "text": "Ich betreue Dich persönlich und plane Dein Training in TrainingPeaks. Auf Nachrichten antworte ich innerhalb von 3 Stunden.",
       "href": "coaching"
     },
     {
       "title": "Partner",
-      "text": "Gemeinsam wachsen: Partnerschaften mit Marken, die Leistung und Werte teilen.",
+      "text": "Ich suche Unternehmen, die mich auf dem Weg in den Profisport begleiten.",
       "href": "partners"
     }
   ],
-  "quote": "Das Ziel ist nicht, schneller zu sein als andere – sondern schneller als gestern.",
-  "quoteAuthor": "Luis Schulz",
-  "ctaTitle": "Bereit für Dein nächstes Ziel?",
-  "ctaText": "Ob Coaching-Anfrage, Partnerschaft oder Presse – ich freue mich auf Deine Nachricht."
+  "quote": "",
+  "quoteAuthor": "",
+  "ctaTitle": "Schreib mir",
+  "ctaText": "Egal ob Du Dich für das Coaching interessierst, mich unterstützen möchtest oder eine Presseanfrage hast: Ich lese jede Nachricht selbst und melde mich bei Dir."
 }

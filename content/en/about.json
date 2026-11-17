@@ -1,12 +1,12 @@
 {
   "seo": {
     "title": "About – Luis Schulz",
-    "description": "Background, goals and fact sheet of professional triathlete Luis Schulz."
+    "description": "Who I am, how I got into triathlon and what I'm planning as a professional."
   },
   "title": "About me",
-  "lead": "From my first local triathlon to a professional start: my story in triathlon.",
+  "lead": "How I got into triathlon and what I'm planning.",
   "image": null,
-  "body": "[Your personal story goes here. How did you get into triathlon? What drives you?]\n\n## My goals\n\n[Describe your sporting goals for your first professional years.]\n\n## What defines me as a coach\n\n- Experience from competing at a high level\n- Training plans based on current sports science\n- Honest, personal support",
+  "body": "[Tell your story in your own words: how you got into triathlon. Write it the way you'd tell a friend.]\n\n## What I'm planning\n\n[Which races and goals do you have for your first years as a pro?]\n\n## Why I coach\n\n[Why do you coach other athletes?]",
   "facts": [
     {
       "label": "Discipline",

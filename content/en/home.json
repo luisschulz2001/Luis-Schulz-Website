@@ -1,33 +1,33 @@
 {
   "seo": {
-    "title": "Luis Schulz – Professional Triathlete & Coach",
-    "description": "Luis Schulz races as a professional triathlete from 2027. Personal triathlon coaching, race schedule and partnerships."
+    "title": "Luis Schulz – Triathlete and coach",
+    "description": "I'm Luis, a triathlete turning pro in 2027. Here you'll find my races, my coaching and how you can support me."
   },
-  "heroEyebrow": "Professional triathlete from 2027",
-  "heroTitle": "Swim. Bike. Run. No compromises.",
-  "heroText": "I'm Luis Schulz – a triathlete on the way to professional racing and a coach for athletes who want to reach their full potential.",
+  "heroEyebrow": "Triathlete · Pro from 2027",
+  "heroTitle": "I'm Luis. Triathlete and coach.",
+  "heroText": "I'm racing as a professional from 2027. I also coach a small number of athletes whom I support personally.",
   "heroImage": null,
-  "introTitle": "Performance is built on consistency",
-  "introText": "Behind every race are thousands of training hours, a well-designed plan and the will to get a little better every day.\n\nFrom the 2027 season I race as a professional. As a coach, I share what I've learned from training, racing and sports science – structured, honest and individual.",
+  "introTitle": "Good to have you here",
+  "introText": "On this site you'll find out where I come from, which races I'm planning and how it's going.\n\nYou'll also see how I work as a coach. I train every day myself and I know what a hard training block feels like. That experience goes into every plan I write.",
   "pillars": [
     {
-      "title": "Athlete",
-      "text": "My path into professional triathlon – background, goals and season plan.",
+      "title": "About me",
+      "text": "Where I come from and what I've set out to do.",
       "href": "about"
     },
     {
       "title": "Coaching",
-      "text": "Personal 1:1 coaching: a close relationship, replies in under 3 hours, day-to-day planning in TrainingPeaks.",
+      "text": "I coach you personally and plan your training in TrainingPeaks. I reply to messages within 3 hours.",
       "href": "coaching"
     },
     {
       "title": "Partners",
-      "text": "Growing together: partnerships with brands that share performance and values.",
+      "text": "I'm looking for companies to support me on my way into professional racing.",
       "href": "partners"
     }
   ],
-  "quote": "The goal isn't to be faster than others – it's to be faster than yesterday.",
-  "quoteAuthor": "Luis Schulz",
-  "ctaTitle": "Ready for your next goal?",
-  "ctaText": "Coaching, partnership or press – I look forward to hearing from you."
+  "quote": "",
+  "quoteAuthor": "",
+  "ctaTitle": "Get in touch",
+  "ctaText": "Whether you're interested in coaching, want to support me or have a press enquiry: I read every message myself and will get back to you."
 }

@@ -1,82 +1,79 @@
 {
   "seo": {
-    "title": "Triathlon-Coaching – Luis Schulz",
-    "description": "Persönliches 1:1-Triathlon-Coaching: enge Begleitung, Antwort in unter 3 Stunden (täglich 6–22 Uhr), Day-to-day-Planung in TrainingPeaks."
+    "title": "Coaching – Luis Schulz",
+    "description": "Persönliches Triathlon-Coaching: Trainingsplanung in TrainingPeaks, bei Bedarf täglich angepasst. Ich antworte täglich zwischen 6 und 22 Uhr innerhalb von 3 Stunden."
   },
-  "title": "Triathlon-Coaching",
-  "lead": "Coaching ist für mich Beziehung, nicht Dienstleistung. Ich begleite Dich persönlich und hands-on – mit echtem Interesse an Dir als Mensch, schnellen Antworten und einer Planung, die sich Tag für Tag an Dein Leben anpasst.",
+  "title": "Coaching",
+  "lead": "Ich coache bewusst nur wenige Athletinnen und Athleten, weil ich jeden von ihnen gut kennen will. Wie geht es Dir gerade, wie hast Du geschlafen, was ist bei der Arbeit los? Das gehört für mich genauso zum Training wie Watt und Pace.",
   "image": null,
   "offer": {
-    "title": "Premium Coaching",
-    "audience": "Persönliche 1:1-Betreuung",
-    "text": "Ich kenne meine Athletinnen und Athleten – ihre Ziele, ihren Alltag, ihre Stärken und auch die Tage, an denen es nicht läuft. Genau das macht gutes Coaching aus. Wir sind laufend im Gespräch: Müde Beine, Dienstreise, ein krankes Kind oder ein Top-Tag – ich passe Dein Training sofort an. Bei Bedarf planen wir Tag für Tag.",
+    "title": "1:1 Coaching",
+    "audience": "Persönliche Betreuung",
+    "text": "Ich plane Dein Training in TrainingPeaks, schaue mir Deine Einheiten an und wir bleiben in Kontakt. Wenn Du müde bist, kurzfristig auf Dienstreise musst oder Dich richtig gut fühlst, passe ich den Plan an. Wenn es nötig ist, auch von Tag zu Tag.",
     "highlights": [
       {
         "value": "1:1",
-        "label": "Persönlich statt anonym"
+        "label": "Du hast direkt mit mir zu tun"
       },
       {
         "value": "< 3 h",
-        "label": "Antwortzeit · täglich 6–22 Uhr"
+        "label": "bis zur Antwort, täglich 6 bis 22 Uhr"
       },
       {
-        "value": "Day to day",
-        "label": "Planung in TrainingPeaks"
+        "value": "Täglich",
+        "label": "angepasste Planung, wenn nötig"
       }
     ],
     "features": [
-      "Eine persönliche Beziehung auf Augenhöhe – ich kenne Dich, nicht nur Deine Daten",
-      "Täglich von 6 bis 22 Uhr erreichbar",
-      "Antwort in weniger als 3 Stunden",
-      "Day-to-day-Planung nach Bedarf in TrainingPeaks",
-      "Sofortige Anpassung an Alltag, Form und Gesundheit",
-      "Analyse Deiner Trainings- und Leistungsdaten",
-      "Saison- und Wettkampfplanung",
-      "Pacing-, Ernährungs- und Rennstrategie",
-      "Persönliches Briefing vor jedem Rennen"
+      "Ich plane Dein Training individuell in TrainingPeaks",
+      "Wenn es nötig ist, passe ich den Plan täglich an",
+      "Ich bin täglich von 6 bis 22 Uhr erreichbar und antworte innerhalb von 3 Stunden",
+      "Ich schaue mir Deine Trainingsdaten regelmäßig an",
+      "Wir planen Deine Saison und Deine Rennen gemeinsam",
+      "Vor jedem Rennen sprechen wir über Pacing, Verpflegung und Taktik"
     ],
-    "price": "auf Anfrage",
-    "note": "Begrenzte Plätze – denn eine persönliche Beziehung braucht Zeit."
+    "price": "Preis auf Anfrage",
+    "note": "Ich nehme nur wenige Athleten an, damit ich für jeden genug Zeit habe."
   },
-  "processTitle": "So läuft es ab",
+  "processTitle": "So fangen wir an",
   "process": [
     {
-      "title": "Persönliches Kennenlernen",
-      "text": "Im kostenlosen Erstgespräch lernen wir uns kennen: Deine Ziele, Deine Geschichte, Dein Alltag."
+      "title": "Wir lernen uns kennen",
+      "text": "Im kostenlosen Erstgespräch erzählst Du mir, wo Du stehst und wo Du hinwillst. Und ich erzähle Dir, wie ich arbeite."
     },
     {
-      "title": "Analyse",
-      "text": "Ich werte Deine bisherigen Trainingsdaten aus und lege die Ausgangsbasis fest."
+      "title": "Ich schaue mir Dein Training an",
+      "text": "Wenn Du schon mit Uhr oder Radcomputer trainierst, werte ich Deine bisherigen Daten aus."
     },
     {
-      "title": "Start in TrainingPeaks",
-      "text": "Dein Training wird in TrainingPeaks geplant – übersichtlich auf Handy, Uhr und Radcomputer."
+      "title": "Wir legen los",
+      "text": "Du bekommst Deinen Plan in TrainingPeaks und lädst die Einheiten direkt auf Uhr und Radcomputer."
     },
     {
-      "title": "Laufend im Gespräch",
-      "text": "Wir bleiben im engen Austausch und passen das Training an, wann immer es nötig ist – bei Bedarf Tag für Tag."
+      "title": "Wir bleiben dran",
+      "text": "Du gibst mir Rückmeldung und ich passe an. Das macht am Ende den Unterschied."
     }
   ],
   "faq": [
     {
       "question": "Wie schnell antwortest Du?",
-      "answer": "Ich bin täglich von 6 bis 22 Uhr erreichbar und antworte in dieser Zeit in weniger als 3 Stunden."
+      "answer": "Täglich zwischen 6 und 22 Uhr innerhalb von 3 Stunden."
     },
     {
-      "question": "Über welche Plattform läuft die Trainingsplanung?",
-      "answer": "Über TrainingPeaks. Dort siehst Du Deine Einheiten, kannst sie auf Uhr und Radcomputer übertragen und Deine Daten werden automatisch synchronisiert – so habe ich Dein Training jederzeit im Blick."
+      "question": "Warum coachst Du nur wenige Athleten?",
+      "answer": "Weil ich jeden kennen will. Ich möchte merken, wenn Dir etwas zu viel wird, bevor es in den Daten auftaucht. Das klappt nur, wenn wir regelmäßig miteinander reden."
     },
     {
-      "question": "Was heißt Day-to-day-Planung?",
-      "answer": "Statt eines starren Wochenplans können wir Dein Training bei Bedarf jeden Tag neu festlegen – passend zu Deiner Form, Deinem Schlaf und Deinem Terminkalender."
+      "question": "Warum TrainingPeaks?",
+      "answer": "Weil es einfach gut funktioniert. Du siehst Deine Einheiten auf dem Handy, sie landen automatisch auf Deiner Uhr und ich sehe nach dem Training direkt, wie es gelaufen ist."
     },
     {
-      "question": "Warum ist Dir die persönliche Beziehung so wichtig?",
-      "answer": "Weil Training nur funktioniert, wenn es zum Menschen passt. Je besser ich Dich kenne, desto besser kann ich einschätzen, was Du gerade brauchst – fordern, bremsen oder einfach zuhören."
+      "question": "Was heißt Planung von Tag zu Tag?",
+      "answer": "Wenn es Dein Alltag gerade verlangt, plane ich nicht die ganze Woche im Voraus. Dann schauen wir jeden Tag neu, was sinnvoll ist."
     },
     {
-      "question": "Für wen ist das Coaching geeignet?",
-      "answer": "Für ambitionierte Athletinnen und Athleten, die eine enge, persönliche Begleitung wollen – vom ersten Triathlon bis zur Langdistanz."
+      "question": "Für wen ist das Coaching?",
+      "answer": "Für alle, die Triathlon ernst nehmen und sich eine enge Betreuung wünschen. Egal ob Du gerade erst anfängst oder Deine nächste Langdistanz planst."
     }
   ]
 }
