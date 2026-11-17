@@ -1,12 +1,12 @@
 {
   "seo": {
     "title": "Über mich – Luis Schulz",
-    "description": "Läufer seit 2020, Triathlet seit 2021, Profi ab 2027. Ich komme aus der Region München und liebe die Langdistanz."
+    "description": "Läufer seit 2020, Triathlet seit Ende 2022, Profi ab 2027. Ich komme aus der Region München und liebe die Langdistanz."
   },
   "title": "Über mich",
-  "lead": "Seit 2020 laufe ich, seit 2021 mache ich Triathlon. Ab 2027 starte ich als Profi.",
+  "lead": "Seit 2020 laufe ich, Ende 2022 kam der Triathlon dazu. Ab 2027 starte ich als Profi.",
   "image": null,
-  "body": "Angefangen hat alles 2020 mit dem Laufen. Ein Jahr später kamen Schwimmen und Radfahren dazu, und seitdem hat mich der Triathlon nicht mehr losgelassen.\n\nIch komme aus der Region München. Die letzten Jahre habe ich zum Studium in Passau gelebt. Mit meiner Heimat Bayern verbinde ich sehr viel.\n\n## Meine Lieblingsdistanz\n\nAm meisten begeistert mich die Langdistanz. Ich mag es, diese Rennen mit offenem Visier anzugehen. Meine bisher schönsten Rennen waren meine beiden Starts bei der Challenge Roth 2025 und 2026.\n\n## Warum ich coache\n\nMich interessiert die Sportwissenschaft sehr, aber vor allem interessieren mich Menschen. Für jede Person eine eigene Lösung zu finden, macht mir große Freude. Einen Plan, der für alle passt, gibt es für mich nicht.",
+  "body": "Angefangen hat alles 2020 mit dem Laufen. Ende 2022 kamen Schwimmen und Radfahren dazu, und seitdem hat mich der Triathlon nicht mehr losgelassen.\n\nIch komme aus der Region München. Mit meiner Heimat Bayern verbinde ich sehr viel.\n\n## Meine Lieblingsdistanz\n\nAm meisten begeistert mich die Langdistanz. Ich mag es, diese Rennen mit offenem Visier anzugehen. Meine bisher schönsten Rennen waren meine beiden Starts bei der Challenge Roth: 2025 habe ich dort meine Altersklasse AK 20 gewonnen, 2026 war ich unter den Top 10 aller Age-Grouper.\n\n## Warum ich coache\n\nMich interessiert die Sportwissenschaft sehr, aber vor allem interessieren mich Menschen. Für jede Person eine eigene Lösung zu finden, macht mir große Freude. Einen Plan, der für alle passt, gibt es für mich nicht.",
   "facts": [
     {
       "label": "Laufen seit",
@@ -14,19 +14,23 @@
     },
     {
       "label": "Triathlon seit",
-      "value": "2021"
+      "value": "Ende 2022"
     },
     {
       "label": "Lieblingsdistanz",
       "value": "Langdistanz"
     },
     {
-      "label": "Heimat",
-      "value": "Region München"
+      "label": "Challenge Roth 2025",
+      "value": "Sieg AK 20"
     },
     {
-      "label": "Studium",
-      "value": "Passau"
+      "label": "Challenge Roth 2026",
+      "value": "Top 10 Age-Grouper"
+    },
+    {
+      "label": "Heimat",
+      "value": "Region München"
     },
     {
       "label": "Profi ab",
@@ -40,19 +44,19 @@
       "text": "Ich fange mit dem Laufen an."
     },
     {
-      "year": "2021",
+      "year": "2022",
       "title": "Mein Weg zum Triathlon",
-      "text": "Schwimmen und Radfahren kommen dazu."
+      "text": "Ende des Jahres kommen Schwimmen und Radfahren dazu."
     },
     {
       "year": "2025",
       "title": "Challenge Roth",
-      "text": "Mein erster Start in Roth."
+      "text": "Mein erster Start in Roth und gleich der Sieg in der AK 20."
     },
     {
       "year": "2026",
       "title": "Zurück in Roth",
-      "text": "Mein zweiter Start bei der Challenge Roth."
+      "text": "Top 10 aller Age-Grouper."
     },
     {
       "year": "2027",

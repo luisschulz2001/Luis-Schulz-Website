@@ -33,9 +33,9 @@ const dictionaries = {
       completed: "Gelaufen",
       noUpcoming: "Meine Rennplanung trage ich hier bald ein.",
       noCompleted: "Sobald die Saison losgeht, stehen hier meine Ergebnisse.",
-      placement: "Platz",
+      placement: "Ergebnis",
       time: "Zeit",
-      report: "Ergebnis",
+      report: "Ergebnisliste",
       distance: {
         sprint: "Sprint",
         olympic: "Olympisch",
@@ -111,9 +111,9 @@ const dictionaries = {
       completed: "Done",
       noUpcoming: "I'll add my race schedule here soon.",
       noCompleted: "My results will appear here once the season starts.",
-      placement: "Place",
+      placement: "Result",
       time: "Time",
-      report: "Result",
+      report: "Full results",
       distance: {
         sprint: "Sprint",
         olympic: "Olympic",
