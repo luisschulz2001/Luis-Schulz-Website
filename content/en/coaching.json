@@ -1,33 +1,34 @@
 {
   "seo": {
     "title": "Triathlon coaching – Luis Schulz",
-    "description": "Hands-on triathlon coaching: ongoing 1:1 support via WhatsApp, replies in under 3 hours, day-to-day planning when needed."
+    "description": "Personal 1:1 triathlon coaching: close support, replies in under 3 hours (daily 6am–10pm), day-to-day planning in TrainingPeaks."
   },
   "title": "Triathlon coaching",
-  "lead": "Hands-on instead of off-the-shelf plans: I support you continuously and personally – in direct contact via WhatsApp, with fast replies and planning that adapts to your life day by day.",
+  "lead": "To me, coaching is a relationship, not a service. I support you personally and hands-on – with genuine interest in you as a person, fast replies and planning that adapts to your life day by day.",
   "image": null,
   "offer": {
     "title": "Premium Coaching",
-    "audience": "Hands-on 1:1 support",
-    "text": "I'm not there once a week – I'm there whenever it matters. We stay in ongoing contact via WhatsApp: heavy legs, a business trip, a sick child or a great day – I adjust your training right away. When needed, we plan day by day.",
+    "audience": "Personal 1:1 support",
+    "text": "I know my athletes – their goals, their everyday life, their strengths and the days when things don't go to plan. That's what good coaching is about. We stay in ongoing contact: heavy legs, a business trip, a sick child or a great day – I adjust your training right away. When needed, we plan day by day.",
     "highlights": [
       {
-        "value": "< 3 h",
-        "label": "Response time"
+        "value": "1:1",
+        "label": "Personal, not anonymous"
       },
       {
-        "value": "WhatsApp",
-        "label": "Ongoing direct contact"
+        "value": "< 3 h",
+        "label": "Response time · daily 6am–10pm"
       },
       {
         "value": "Day to day",
-        "label": "Planning when needed"
+        "label": "Planning in TrainingPeaks"
       }
     ],
     "features": [
-      "Ongoing contact via WhatsApp – as often as you need",
+      "A personal relationship on equal terms – I know you, not just your data",
+      "Available every day from 6am to 10pm",
       "Replies in under 3 hours",
-      "Day-to-day planning when needed",
+      "Day-to-day planning in TrainingPeaks when needed",
       "Immediate adjustments to life, form and health",
       "Analysis of your training and performance data",
       "Season and race planning",
@@ -35,39 +36,43 @@
       "Personal briefing before every race"
     ],
     "price": "on request",
-    "note": "Limited spots – that's the only way to keep support this close."
+    "note": "Limited spots – because a personal relationship takes time."
   },
   "processTitle": "How it works",
   "process": [
     {
-      "title": "Intro call",
-      "text": "A free first conversation about your goals, experience and everyday life."
+      "title": "Getting to know each other",
+      "text": "In a free intro call we get to know each other: your goals, your story, your everyday life."
     },
     {
       "title": "Analysis",
       "text": "I review your training data and define the starting point."
     },
     {
-      "title": "Start & direct line",
-      "text": "You get your plan and my direct WhatsApp line – from now on we're in constant contact."
+      "title": "Start in TrainingPeaks",
+      "text": "Your training is planned in TrainingPeaks – clear on your phone, watch and bike computer."
     },
     {
-      "title": "Adjust daily",
-      "text": "We adapt training whenever needed – day by day if required."
+      "title": "Ongoing conversation",
+      "text": "We stay in close contact and adjust training whenever needed – day by day if required."
     }
   ],
   "faq": [
     {
       "question": "How fast do you reply?",
-      "answer": "In under 3 hours. Just message me on WhatsApp whenever you have a question or something needs adjusting."
+      "answer": "I'm available every day from 6am to 10pm and reply within 3 hours during that time."
     },
     {
-      "question": "How often can we talk?",
-      "answer": "As often as you need. The coaching is deliberately hands-on – from a quick question before a session to daily check-ins."
+      "question": "Which platform do you use for planning?",
+      "answer": "TrainingPeaks. You see your sessions there, can sync them to your watch and bike computer, and your data uploads automatically – so I always have your training in view."
     },
     {
       "question": "What does day-to-day planning mean?",
       "answer": "Instead of a rigid weekly plan, we can set your training fresh each day when needed – matched to your form, your sleep and your schedule."
+    },
+    {
+      "question": "Why is the personal relationship so important to you?",
+      "answer": "Because training only works when it fits the person. The better I know you, the better I can judge what you need right now – a push, a brake or simply someone who listens."
     },
     {
       "question": "Who is the coaching for?",
