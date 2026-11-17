@@ -5,10 +5,10 @@
   },
   "heroEyebrow": "Triathlete · Pro from 2027",
   "heroTitle": "I'm Luis. Triathlete and coach.",
-  "heroText": "I'm racing as a professional from 2027. I also coach a small number of athletes whom I support personally.",
+  "heroText": "I'm from the Munich area, I love long-distance racing and I'm turning pro in 2027. I also coach a few athletes whom I support personally.",
   "heroImage": null,
   "introTitle": "Good to have you here",
-  "introText": "On this site you'll find out where I come from, which races I'm planning and how it's going.\n\nYou'll also see how I work as a coach. I train every day myself and I know what a hard training block feels like. That experience goes into every plan I write.",
+  "introText": "I started running in 2020 and got into triathlon in 2021. The sport hasn't let go of me since. My best races so far were my two starts at Challenge Roth.\n\nAs a coach I'm interested in sports science, but above all I'm interested in people. Finding the right approach for each person gives me a lot of joy.",
   "pillars": [
     {
       "title": "About me",
@@ -26,8 +26,8 @@
       "href": "partners"
     }
   ],
-  "quote": "",
-  "quoteAuthor": "",
+  "quote": "We don't make progress in our comfort zone. Just like in other areas of life, in sport we go the extra mile together.",
+  "quoteAuthor": "What I often tell my athletes",
   "ctaTitle": "Get in touch",
   "ctaText": "Whether you're interested in coaching, want to support me or have a press enquiry: I read every message myself and will get back to you."
 }

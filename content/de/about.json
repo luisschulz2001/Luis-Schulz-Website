@@ -1,54 +1,63 @@
 {
   "seo": {
     "title": "Über mich – Luis Schulz",
-    "description": "Wer ich bin, wie ich zum Triathlon gekommen bin und was ich als Profi vorhabe."
+    "description": "Läufer seit 2020, Triathlet seit 2021, Profi ab 2027. Ich komme aus der Region München und liebe die Langdistanz."
   },
   "title": "Über mich",
-  "lead": "Wie ich zum Triathlon gekommen bin und was ich vorhabe.",
+  "lead": "Seit 2020 laufe ich, seit 2021 mache ich Triathlon. Ab 2027 starte ich als Profi.",
   "image": null,
-  "body": "[Erzähl hier in Deinen eigenen Worten, wie Du zum Triathlon gekommen bist. Am besten so, wie Du es einem Freund erzählen würdest. Ein konkreter Moment, zum Beispiel Dein erstes Rennen, wirkt stärker als jede allgemeine Beschreibung.]\n\n## Was ich vorhabe\n\n[Welche Rennen und Ziele hast Du für Deine ersten Jahre als Profi? Ruhig konkret.]\n\n## Warum ich coache\n\n[Warum trainierst Du andere? Gab es einen Moment, in dem Dir klar wurde, dass Dir das liegt?]",
+  "body": "Angefangen hat alles 2020 mit dem Laufen. Ein Jahr später kamen Schwimmen und Radfahren dazu, und seitdem hat mich der Triathlon nicht mehr losgelassen.\n\nIch komme aus der Region München. Die letzten Jahre habe ich zum Studium in Passau gelebt. Mit meiner Heimat Bayern verbinde ich sehr viel.\n\n## Meine Lieblingsdistanz\n\nAm meisten begeistert mich die Langdistanz. Ich mag es, diese Rennen mit offenem Visier anzugehen. Meine bisher schönsten Rennen waren meine beiden Starts bei der Challenge Roth 2025 und 2026.\n\n## Warum ich coache\n\nMich interessiert die Sportwissenschaft sehr, aber vor allem interessieren mich Menschen. Für jede Person eine eigene Lösung zu finden, macht mir große Freude. Einen Plan, der für alle passt, gibt es für mich nicht.",
   "facts": [
     {
-      "label": "Disziplin",
-      "value": "Triathlon"
+      "label": "Laufen seit",
+      "value": "2020"
     },
     {
-      "label": "Status",
-      "value": "Profi ab 2027"
+      "label": "Triathlon seit",
+      "value": "2021"
     },
     {
-      "label": "Schwerpunkt",
-      "value": "[z. B. Mitteldistanz]"
+      "label": "Lieblingsdistanz",
+      "value": "Langdistanz"
     },
     {
       "label": "Heimat",
-      "value": "[Ort eintragen]"
+      "value": "Region München"
     },
     {
-      "label": "Verein / Team",
-      "value": "[eintragen]"
+      "label": "Studium",
+      "value": "Passau"
+    },
+    {
+      "label": "Profi ab",
+      "value": "2027"
     }
   ],
   "timeline": [
     {
-      "year": "[Jahr]",
-      "title": "Erster Triathlon",
-      "text": "[Kurze Beschreibung]"
+      "year": "2020",
+      "title": "Die ersten Laufschritte",
+      "text": "Ich fange mit dem Laufen an."
     },
     {
-      "year": "[Jahr]",
-      "title": "Erste Erfolge",
-      "text": "[Kurze Beschreibung]"
+      "year": "2021",
+      "title": "Mein Weg zum Triathlon",
+      "text": "Schwimmen und Radfahren kommen dazu."
+    },
+    {
+      "year": "2025",
+      "title": "Challenge Roth",
+      "text": "Mein erster Start in Roth."
     },
     {
       "year": "2026",
-      "title": "Vorbereitung auf den Profisport",
-      "text": "[Kurze Beschreibung]"
+      "title": "Zurück in Roth",
+      "text": "Mein zweiter Start bei der Challenge Roth."
     },
     {
       "year": "2027",
-      "title": "Start als Profi-Triathlet",
-      "text": "Erste Saison mit Profi-Lizenz."
+      "title": "Profi",
+      "text": "Meine erste Saison mit Profi-Lizenz."
     }
   ]
 }

@@ -50,7 +50,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
       {c.timeline.length > 0 && (
         <section className="container-page mt-24 md:mt-32">
           <h2 className="h-section mb-10 text-4xl md:text-5xl">{t.about.timeline}</h2>
-          <ol className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <ol className={`grid gap-4 md:grid-cols-2 ${c.timeline.length === 5 ? "lg:grid-cols-5" : c.timeline.length === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}>
             {c.timeline.map((m) => (
               <li key={`${m.year}-${m.title}`} className="rounded-[1.5rem] border border-line bg-surface p-7">
                 <p className="font-serif text-3xl text-accent italic">{m.year}</p>

@@ -1,54 +1,63 @@
 {
   "seo": {
     "title": "About – Luis Schulz",
-    "description": "Who I am, how I got into triathlon and what I'm planning as a professional."
+    "description": "Runner since 2020, triathlete since 2021, pro from 2027. I'm from the Munich area and I love long-distance racing."
   },
   "title": "About me",
-  "lead": "How I got into triathlon and what I'm planning.",
+  "lead": "I've been running since 2020 and doing triathlon since 2021. From 2027 I'm racing as a professional.",
   "image": null,
-  "body": "[Tell your story in your own words: how you got into triathlon. Write it the way you'd tell a friend.]\n\n## What I'm planning\n\n[Which races and goals do you have for your first years as a pro?]\n\n## Why I coach\n\n[Why do you coach other athletes?]",
+  "body": "It all started in 2020 with running. A year later swimming and cycling came along, and triathlon hasn't let go of me since.\n\nI'm from the Munich area. For the last few years I lived in Passau for my studies. My home, Bavaria, means a lot to me.\n\n## My favourite distance\n\nWhat excites me most is long-distance racing. I like to race these with nothing held back. My best races so far were my two starts at Challenge Roth in 2025 and 2026.\n\n## Why I coach\n\nI'm very interested in sports science, but above all I'm interested in people. Finding the right approach for each person gives me a lot of joy. To me, there is no plan that fits everyone.",
   "facts": [
     {
-      "label": "Discipline",
-      "value": "Triathlon"
+      "label": "Running since",
+      "value": "2020"
     },
     {
-      "label": "Status",
-      "value": "Professional from 2027"
+      "label": "Triathlon since",
+      "value": "2021"
     },
     {
-      "label": "Focus",
-      "value": "[e.g. middle distance]"
+      "label": "Favourite distance",
+      "value": "Long distance"
     },
     {
       "label": "Home",
-      "value": "[add location]"
+      "value": "Munich area"
     },
     {
-      "label": "Club / team",
-      "value": "[add]"
+      "label": "Studies",
+      "value": "Passau"
+    },
+    {
+      "label": "Pro from",
+      "value": "2027"
     }
   ],
   "timeline": [
     {
-      "year": "[Year]",
-      "title": "First triathlon",
-      "text": "[Short description]"
+      "year": "2020",
+      "title": "First runs",
+      "text": "I start running."
     },
     {
-      "year": "[Year]",
-      "title": "First successes",
-      "text": "[Short description]"
+      "year": "2021",
+      "title": "Into triathlon",
+      "text": "Swimming and cycling join in."
+    },
+    {
+      "year": "2025",
+      "title": "Challenge Roth",
+      "text": "My first start in Roth."
     },
     {
       "year": "2026",
-      "title": "Preparing for professional racing",
-      "text": "[Short description]"
+      "title": "Back in Roth",
+      "text": "My second Challenge Roth."
     },
     {
       "year": "2027",
-      "title": "Racing as a professional",
-      "text": "First season with a professional licence."
+      "title": "Pro",
+      "text": "My first season with a pro licence."
     }
   ]
 }
