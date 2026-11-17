@@ -1,19 +1,19 @@
 {
   "seo": {
     "title": "Coaching – Luis Schulz",
-    "description": "Personal triathlon coaching: training planned in TrainingPeaks and adjusted daily when needed. I reply within 3 hours, every day between 6am and 10pm."
+    "description": "Personal triathlon coaching: training planned in TrainingPeaks and adjusted daily when needed. Available daily from 6am to 10pm, replies within 3 hours."
   },
   "title": "Coaching",
-  "lead": "I'm interested in sports science, but above all I'm interested in people. Finding the right approach for each athlete gives me a lot of joy. That's why I deliberately coach only a few and want to know each of them well. I planned my own path from my first run to my first long distance in 8:40 hours entirely by myself.",
+  "lead": "Sports science is the foundation, the person is at the centre. That's why there are only a few places, so every athlete gets truly personal support. The path from the first run to the first long distance in 8:40 hours was entirely self-planned.",
   "image": "/images/coaching/vortrag-basketballteam.jpg",
   "offer": {
     "title": "1:1 Coaching",
     "audience": "Personal coaching",
-    "text": "I plan your training in TrainingPeaks, look at your sessions and we stay in touch. If you're tired, have a last-minute business trip or feel really good, I adjust the plan. Day by day if needed.",
+    "text": "Your training is planned individually in TrainingPeaks, your sessions are reviewed and we stay in close contact. If you're tired, have a last-minute business trip or feel really good, the plan is adjusted. Day by day if needed.",
     "highlights": [
       {
         "value": "1:1",
-        "label": "You deal with me directly"
+        "label": "Personal, no detours"
       },
       {
         "value": "< 3 h",
@@ -25,28 +25,28 @@
       }
     ],
     "features": [
-      "I plan your training individually in TrainingPeaks",
-      "When needed, I adjust the plan every day",
-      "I'm available daily from 6am to 10pm and reply within 3 hours",
-      "I review your training data regularly",
-      "We plan your season and races together",
-      "Before each race we talk through pacing, nutrition and tactics"
+      "Individual training planning in TrainingPeaks",
+      "Daily plan adjustments when needed",
+      "Available daily from 6am to 10pm, replies within 3 hours",
+      "Regular review of your training data",
+      "Season and race planning together",
+      "Before every race: pacing, nutrition and tactics"
     ],
     "price": "Price on request",
-    "note": "I only take on a few athletes so I have enough time for each of them."
+    "note": "Only a few places, so there's enough time for every athlete."
   },
-  "philosophyTitle": "My training philosophy",
-  "philosophyText": "What matters to me is sustainable development in sport. That's why I prefer to work with my athletes over the long term. Only then can health and athletic development go hand in hand.",
+  "philosophyTitle": "Training philosophy",
+  "philosophyText": "The focus is on sustainable development in sport, which is why long-term collaboration is ideal. Only then can health and athletic development go hand in hand.",
   "philosophyQuote": "Keep the easy days easier than easy and the hard days sustainably hard.",
   "processTitle": "How we start",
   "process": [
     {
       "title": "We get to know each other",
-      "text": "In a free intro call you tell me where you are and where you want to go. And I tell you how I work."
+      "text": "The free intro call is about where you are, your goals and how the coaching works."
     },
     {
-      "title": "I look at your training",
-      "text": "If you already train with a watch or bike computer, I review your data."
+      "title": "Analysis",
+      "text": "If you already train with a watch or bike computer, your previous data is reviewed."
     },
     {
       "title": "We get going",
@@ -54,7 +54,7 @@
     },
     {
       "title": "We keep at it",
-      "text": "You give me feedback and I adjust. That's what makes the difference in the end."
+      "text": "You give feedback, the plan is adjusted. That's what makes the difference in the end."
     }
   ],
   "faq": [
@@ -63,20 +63,20 @@
       "answer": "Within 3 hours, every day between 6am and 10pm."
     },
     {
-      "question": "Why do you coach only a few athletes?",
-      "answer": "Because I want to know each of them. I want to notice when something is getting too much before it shows up in the data. That only works if we talk regularly."
+      "question": "Why only a few athletes?",
+      "answer": "Because every athlete should be known well. If something becomes too much, it should be noticed before it shows up in the data. That only works with regular contact."
     },
     {
       "question": "How long do we work together?",
-      "answer": "Ideally for the long term. Sustainable progress takes time, and the longer we work together, the better I know you and what works for you."
+      "answer": "Ideally for the long term. Sustainable progress takes time, and the longer the collaboration, the better it's possible to judge what works for you."
     },
     {
       "question": "Why TrainingPeaks?",
-      "answer": "Because it simply works. You see your sessions on your phone, they sync to your watch and I can see straight after training how it went."
+      "answer": "Because it simply works. You see your sessions on your phone, they sync to your watch, and straight after training it's clear how it went."
     },
     {
       "question": "What does day-by-day planning mean?",
-      "answer": "When your life needs it, I don't plan the whole week ahead. We look at what makes sense each day."
+      "answer": "When your life needs it, the week isn't planned in advance. Instead we look at what makes sense each day."
     },
     {
       "question": "Who is the coaching for?",

@@ -1,23 +1,23 @@
 {
   "seo": {
     "title": "Partner – Luis Schulz",
-    "description": "Ich suche Partner, die mich als Pro-Triathlet unterstützen."
+    "description": "Partnerschaften mit Pro-Triathlet Luis Schulz."
   },
   "title": "Partner",
-  "lead": "Profisport ist auch eine finanzielle Frage. Ich suche Partner, die mich als Pro-Triathlet unterstützen und mit denen ich langfristig zusammenarbeiten kann.",
-  "benefitsTitle": "Was ich Dir bieten kann",
+  "lead": "Profisport ist auch eine finanzielle Frage. Gesucht werden Partner für eine langfristige Zusammenarbeit im Profi-Triathlon.",
+  "benefitsTitle": "Was eine Partnerschaft bietet",
   "benefits": [
     {
-      "title": "Einblicke in mein Training",
-      "text": "Ich zeige auf meinen Kanälen, wie mein Alltag als Triathlet wirklich aussieht. Produkte zeige ich nur, wenn ich sie auch selbst benutze."
+      "title": "Einblicke ins Training",
+      "text": "Ehrliche Einblicke in den Alltag eines Triathleten. Gezeigt werden nur Produkte, die auch wirklich im Einsatz sind."
     },
     {
       "title": "Präsenz bei Rennen",
-      "text": "Dein Logo auf meiner Wettkampfkleidung und meinem Material. In meinen Rennberichten erwähne ich Dich."
+      "text": "Dein Logo auf Wettkampfkleidung und Material, dazu Erwähnungen in den Rennberichten."
     },
     {
       "title": "Ehrliches Feedback",
-      "text": "Ich teste Material im Training und im Rennen und sage Dir offen, was gut ist und was nicht."
+      "text": "Material wird im Training und im Rennen getestet. Das Feedback ist offen und ehrlich."
     },
     {
       "title": "Gemeinsame Aktionen",
@@ -25,6 +25,6 @@
     }
   ],
   "ctaTitle": "Lass uns sprechen",
-  "ctaText": "Ich schicke Dir gern meine Unterlagen und erzähle Dir mehr über meine Pläne.",
+  "ctaText": "Mehr zu den Plänen für die kommende Saison gibt es im persönlichen Gespräch.",
   "image": "/images/partners-page/rennrad-kurve.jpg"
 }

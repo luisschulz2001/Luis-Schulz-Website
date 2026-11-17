@@ -1,23 +1,23 @@
 {
   "seo": {
     "title": "Partners – Luis Schulz",
-    "description": "I'm looking for partners to support me as a pro triathlete."
+    "description": "Partnerships with pro triathlete Luis Schulz."
   },
   "title": "Partners",
-  "lead": "Professional sport is also a financial question. I'm looking for partners who support me as a pro triathlete and with whom I can work long-term.",
-  "benefitsTitle": "What I can offer you",
+  "lead": "Professional sport is also a financial question. Partners for a long-term collaboration in pro triathlon are welcome.",
+  "benefitsTitle": "What a partnership offers",
   "benefits": [
     {
-      "title": "A look into my training",
-      "text": "I show on my channels what my everyday life as a triathlete really looks like. I only feature products I actually use."
+      "title": "A look into training",
+      "text": "Honest insights into a triathlete's everyday life. Only products that are genuinely used are featured."
     },
     {
       "title": "Race-day presence",
-      "text": "Your logo on my race kit and equipment. I mention you in my race reports."
+      "text": "Your logo on race kit and equipment, plus mentions in race reports."
     },
     {
       "title": "Honest feedback",
-      "text": "I test equipment in training and racing and tell you openly what works and what doesn't."
+      "text": "Equipment is tested in training and racing, with open and honest feedback."
     },
     {
       "title": "Joint activities",
@@ -25,6 +25,6 @@
     }
   ],
   "ctaTitle": "Let's talk",
-  "ctaText": "I'm happy to send you my documents and tell you more about my plans.",
+  "ctaText": "More about the plans for the coming season in a personal conversation.",
   "image": "/images/partners-page/rennrad-kurve.jpg"
 }

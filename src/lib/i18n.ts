@@ -14,7 +14,7 @@ export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:30
 const dictionaries = {
   de: {
     nav: {
-      about: "Über mich",
+      about: "Über Luis",
       races: "Rennen",
       coaching: "Coaching",
       talks: "Vorträge",
@@ -23,8 +23,8 @@ const dictionaries = {
     },
     cta: {
       book: "Erstgespräch vereinbaren",
-      contact: "Schreib mir",
-      coaching: "Mein Coaching",
+      contact: "Nachricht schreiben",
+      coaching: "Zum Coaching",
       partner: "Partner werden",
       more: "Mehr erfahren",
       allRaces: "Alle Rennen",
@@ -32,8 +32,8 @@ const dictionaries = {
     races: {
       upcoming: "Geplant",
       completed: "Gelaufen",
-      noUpcoming: "Meine Rennplanung trage ich hier bald ein.",
-      noCompleted: "Sobald die Saison losgeht, stehen hier meine Ergebnisse.",
+      noUpcoming: "Die Rennplanung folgt in Kürze.",
+      noCompleted: "Sobald die Saison losgeht, stehen hier die Ergebnisse.",
       placement: "Ergebnis",
       time: "Zeit",
       report: "Ergebnisliste",
@@ -48,7 +48,7 @@ const dictionaries = {
     progress: {
       eyebrow: "Entwicklung",
       title: "in einem Jahr",
-      lead: "Nachhaltig besser werden heißt für mich: jedes Jahr ein Stück schneller, ohne den Körper zu verheizen.",
+      lead: "Nachhaltig besser werden heißt: jedes Jahr ein Stück schneller, ohne den Körper zu verheizen.",
       swim: "Swim",
       bike: "Bike",
       run: "Run",
@@ -56,7 +56,7 @@ const dictionaries = {
     fit: {
       eyebrow: "Coaching-Check",
       title: "Passt das Coaching zu mir?",
-      lead: "Vier kurze Fragen. Danach weißt Du, wie ich Dich unterstützen kann.",
+      lead: "Vier kurze Fragen. Danach weißt Du, wie das Coaching Dich unterstützen kann.",
       step: "Frage",
       of: "von",
       back: "Zurück",
@@ -87,7 +87,7 @@ const dictionaries = {
       resultBeginner:
         "Gerade am Anfang macht eine gute Begleitung den größten Unterschied. Wir bauen Dich Schritt für Schritt auf, ohne Dich zu überfordern.",
       resultTight:
-        "Eine Langdistanz mit wenig Trainingszeit ist ambitioniert, aber mit kluger Planung machbar. Dann muss jede Einheit sitzen, und genau darum kümmere ich mich.",
+        "Eine Langdistanz mit wenig Trainingszeit ist ambitioniert, aber mit kluger Planung machbar. Dann muss jede Einheit sitzen, und genau darum geht es im Coaching.",
       resultDefault:
         "Mit Deinen Voraussetzungen lässt sich einiges erreichen. Im Erstgespräch schauen wir gemeinsam, wie Dein Weg aussieht.",
       summary: "Deine Angaben",
@@ -103,10 +103,10 @@ const dictionaries = {
       fallback: "Diesen Bericht gibt es nur auf Deutsch.",
       result: "Ergebnis",
     },
-    home: { upcomingTitle: "Meine nächsten Rennen", testimonialsTitle: "Das sagen meine Athleten" },
-    about: { facts: "Kurz und knapp", timeline: "Mein Weg bisher" },
-    coaching: { offer: "Mein Angebot", faq: "Häufige Fragen", included: "Enthalten" },
-    partners: { current: "Die mich unterstützen", none: "Hier ist noch Platz für Dein Logo." },
+    home: { upcomingTitle: "Nächste Rennen", testimonialsTitle: "Stimmen aus dem Coaching" },
+    about: { facts: "Kurz und knapp", timeline: "Der Weg bisher" },
+    coaching: { offer: "Das Angebot", faq: "Häufige Fragen", included: "Enthalten" },
+    partners: { current: "Partner & Unterstützer", none: "Hier ist noch Platz für Dein Logo." },
     contact: {
       formTitle: "Deine Nachricht",
       directTitle: "Oder direkt per E-Mail",
@@ -126,8 +126,8 @@ const dictionaries = {
       consentLink: "Datenschutzerklärung",
       submit: "Nachricht senden",
       sending: "Wird gesendet …",
-      success: "Danke für Deine Nachricht! Ich melde mich bald bei Dir.",
-      error: "Das hat leider nicht geklappt. Bitte schreib mir direkt eine E-Mail.",
+      success: "Danke für Deine Nachricht! Die Antwort kommt bald.",
+      error: "Das hat leider nicht geklappt. Bitte schick direkt eine E-Mail.",
       invalid: "Bitte füll alle Felder aus und bestätige den Datenschutzhinweis.",
       emailLabels: {
         general: "Allgemein",
@@ -142,7 +142,7 @@ const dictionaries = {
         "Der Kalender wird von einem externen Anbieter bereitgestellt. Beim Laden werden Daten (z. B. Deine IP-Adresse) an diesen übertragen.",
       load: "Kalender anzeigen",
       openExternal: "In neuem Tab öffnen",
-      missing: "Die Online-Terminbuchung kommt bald. Schreib mir bis dahin gern eine Nachricht.",
+      missing: "Die Online-Terminbuchung kommt bald. Bis dahin gern einfach eine Nachricht schreiben.",
     },
     footer: { imprint: "Impressum", privacy: "Datenschutz", rights: "Alle Rechte vorbehalten." },
     legal: { imprint: "Impressum", privacy: "Datenschutzerklärung" },
@@ -161,8 +161,8 @@ const dictionaries = {
     },
     cta: {
       book: "Book a free intro call",
-      contact: "Write to me",
-      coaching: "My coaching",
+      contact: "Send a message",
+      coaching: "Explore coaching",
       partner: "Become a partner",
       more: "Learn more",
       allRaces: "All races",
@@ -170,8 +170,8 @@ const dictionaries = {
     races: {
       upcoming: "Planned",
       completed: "Done",
-      noUpcoming: "I'll add my race schedule here soon.",
-      noCompleted: "My results will appear here once the season starts.",
+      noUpcoming: "The race schedule will follow soon.",
+      noCompleted: "Results will appear here once the season starts.",
       placement: "Result",
       time: "Time",
       report: "Full results",
@@ -186,7 +186,7 @@ const dictionaries = {
     progress: {
       eyebrow: "Progress",
       title: "in one year",
-      lead: "To me, sustainable progress means getting a little faster every year without burning out.",
+      lead: "Sustainable progress means getting a little faster every year without burning out.",
       swim: "Swim",
       bike: "Bike",
       run: "Run",
@@ -194,7 +194,7 @@ const dictionaries = {
     fit: {
       eyebrow: "Coaching check",
       title: "Is the coaching right for me?",
-      lead: "Four quick questions. Then you'll know how I can support you.",
+      lead: "Four quick questions. Then you'll know how the coaching can support you.",
       step: "Question",
       of: "of",
       back: "Back",
@@ -225,7 +225,7 @@ const dictionaries = {
       resultBeginner:
         "Especially at the start, good support makes the biggest difference. We'll build you up step by step without overloading you.",
       resultTight:
-        "A long distance with limited training time is ambitious, but doable with smart planning. Every session has to count, and that's exactly what I take care of.",
+        "A long distance with limited training time is ambitious, but doable with smart planning. Every session has to count, and that's exactly what the coaching is about.",
       resultDefault:
         "With your background there's a lot we can achieve. In the intro call we'll work out together what your path looks like.",
       summary: "Your answers",
@@ -241,13 +241,13 @@ const dictionaries = {
       fallback: "This report is only available in German.",
       result: "Result",
     },
-    home: { upcomingTitle: "My next races", testimonialsTitle: "What my athletes say" },
-    about: { facts: "In short", timeline: "My journey so far" },
-    coaching: { offer: "My offer", faq: "FAQ", included: "Included" },
-    partners: { current: "Who supports me", none: "There's still room for your logo here." },
+    home: { upcomingTitle: "Next races", testimonialsTitle: "Voices from coaching" },
+    about: { facts: "In short", timeline: "The journey so far" },
+    coaching: { offer: "The offer", faq: "FAQ", included: "Included" },
+    partners: { current: "Partners & supporters", none: "There's still room for your logo here." },
     contact: {
       formTitle: "Your message",
-      directTitle: "Or email me directly",
+      directTitle: "Or email directly",
       topic: "Topic",
       topics: {
         coaching: "Coaching",
@@ -263,8 +263,8 @@ const dictionaries = {
       consentLink: "privacy policy",
       submit: "Send message",
       sending: "Sending …",
-      success: "Thanks for your message! I'll get back to you soon.",
-      error: "Something went wrong. Please send me an email directly.",
+      success: "Thanks for your message! A reply is on its way soon.",
+      error: "Something went wrong. Please send an email directly.",
       invalid: "Please fill in all fields and accept the privacy notice.",
       emailLabels: {
         general: "General",
@@ -279,7 +279,7 @@ const dictionaries = {
         "The calendar is provided by an external service. Loading it transfers data (e.g. your IP address) to that provider.",
       load: "Show calendar",
       openExternal: "Open in new tab",
-      missing: "Online booking is coming soon. Until then, feel free to send me a message.",
+      missing: "Online booking is coming soon. Until then, feel free to send a message.",
     },
     footer: { imprint: "Imprint", privacy: "Privacy", rights: "All rights reserved." },
     legal: { imprint: "Imprint", privacy: "Privacy policy" },

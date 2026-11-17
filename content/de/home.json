@@ -1,23 +1,23 @@
 {
   "seo": {
     "title": "Luis Schulz – Pro-Triathlet und Coach",
-    "description": "Ich bin Luis, Pro-Triathlet und Coach aus der Region München. Hier findest Du meine Rennen, mein Coaching und wie Du mich unterstützen kannst."
+    "description": "Luis Schulz, Pro-Triathlet und Coach aus der Region München: Rennen, persönliches Coaching, Vorträge und Partnerschaften."
   },
   "heroEyebrow": "Pro-Triathlet · Coach",
-  "heroTitle": "Ich bin Luis.\nPro‑Triathlet und Coach.",
-  "heroText": "Ich komme aus der Region München und liebe die Langdistanz. Außerdem trainiere ich ein paar Athletinnen und Athleten, die ich persönlich begleite.",
+  "heroTitle": "Luis Schulz.\nPro‑Triathlet und Coach.",
+  "heroText": "Zuhause in der Region München, mit Herz für die Langdistanz. Dazu persönliches Coaching für eine kleine Zahl von Athletinnen und Athleten.",
   "heroImage": "/images/home/roth-rad-zuschauer.jpg",
   "introTitle": "Schön, dass Du hier bist",
-  "introText": "2020 habe ich mit dem Laufen angefangen, Ende 2022 kam der Triathlon dazu. Seitdem hat mich dieser Sport nicht mehr losgelassen. Meine schönsten Rennen waren bisher meine beiden Starts bei der Challenge Roth: 2025 der Sieg in meiner Altersklasse, 2026 Top 10 aller Age-Grouper.\n\nAls Coach interessiert mich die Sportwissenschaft, aber vor allem interessieren mich die Menschen. Für jede Person eine eigene Lösung zu finden, macht mir große Freude.",
+  "introText": "2020 fing alles mit dem Laufen an, Ende 2022 kam der Triathlon dazu. Seitdem lässt dieser Sport nicht mehr los. Die bisher schönsten Rennen: zwei Starts bei der Challenge Roth, 2025 mit dem Sieg in der AK 20, 2026 unter den Top 10 aller Age-Grouper.\n\nIm Coaching ist die Sportwissenschaft die Grundlage, im Mittelpunkt steht aber der Mensch. Für jede Person die passende Lösung zu finden, macht dabei die größte Freude.",
   "pillars": [
     {
-      "title": "Über mich",
-      "text": "Woher ich komme und was ich mir vorgenommen habe.",
+      "title": "Über Luis",
+      "text": "Herkunft, Werdegang und Ziele.",
       "href": "about"
     },
     {
       "title": "Coaching",
-      "text": "Ich betreue Dich persönlich und plane Dein Training in TrainingPeaks. Auf Nachrichten antworte ich innerhalb von 3 Stunden.",
+      "text": "Persönliche Betreuung, Trainingsplanung in TrainingPeaks und Antworten innerhalb von 3 Stunden.",
       "href": "coaching"
     },
     {
@@ -27,12 +27,12 @@
     },
     {
       "title": "Partner",
-      "text": "Ich suche Unternehmen, die mich als Pro-Triathlet begleiten.",
+      "text": "Für Unternehmen, die einen Pro-Triathleten langfristig begleiten möchten.",
       "href": "partners"
     }
   ],
   "quote": "In der Komfortzone erzielen wir keine Fortschritte. Wie in den anderen Lebensbereichen gehen wir auch im Sport gemeinsam die Extra-Meile.",
-  "quoteAuthor": "Was ich meinen Athleten oft sage",
-  "ctaTitle": "Schreib mir",
-  "ctaText": "Egal ob Du Dich für das Coaching interessierst, mich unterstützen möchtest oder eine Presseanfrage hast: Ich lese jede Nachricht selbst und melde mich bei Dir."
+  "quoteAuthor": "Leitsatz im Coaching",
+  "ctaTitle": "Lass uns sprechen",
+  "ctaText": "Coaching, Vorträge, Partnerschaft oder Presse: Jede Nachricht wird persönlich gelesen und beantwortet."
 }

@@ -1,10 +1,10 @@
 {
   "seo": {
     "title": "Talks & workshops – Luis Schulz",
-    "description": "Talks and workshops for clubs, teams and groups: nutrition around training and competition, sustainable training and my path to long distance."
+    "description": "Talks and workshops for clubs, teams and groups: nutrition around training and competition, sustainable training and the path to long distance."
   },
   "title": "Talks & workshops",
-  "lead": "I also share what I know with clubs, teams and groups. For example, I gave a talk to a basketball team about nutrition around training and game day.",
+  "lead": "Sharing knowledge with clubs, teams and groups. For example with a basketball team: a talk on nutrition around training and game day.",
   "image": "/images/coaching/vortrag-basketballteam.jpg",
   "imageCaption": "Talk for a basketball team: nutrition around training and game day.",
   "topicsTitle": "Topics",
@@ -18,8 +18,8 @@
       "text": "How training load and recovery work together, and why the easy days matter as much as the hard ones."
     },
     {
-      "title": "My path to long distance",
-      "text": "From my first run in 2020 to Challenge Roth: what I learned about training, motivation and myself along the way."
+      "title": "The path to long distance",
+      "text": "From the first run in 2020 to Challenge Roth: experiences on training, motivation and persistence."
     }
   ],
   "formatsTitle": "What it can look like",
@@ -38,5 +38,5 @@
     }
   ],
   "ctaTitle": "Interested in a talk?",
-  "ctaText": "Tell me who the talk is for and which topic interests you. I'll get back to you with a suggestion."
+  "ctaText": "Send a short note on who the talk is for and which topic interests you, and a suggestion will follow."
 }

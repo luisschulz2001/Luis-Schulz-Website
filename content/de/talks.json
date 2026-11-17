@@ -1,25 +1,25 @@
 {
   "seo": {
     "title": "Vorträge & Workshops – Luis Schulz",
-    "description": "Vorträge und Workshops für Vereine, Teams und Gruppen: Ernährung rund um Training und Wettkampf, nachhaltiges Training und mein Weg zur Langdistanz."
+    "description": "Vorträge und Workshops für Vereine, Teams und Gruppen: Ernährung rund um Training und Wettkampf, nachhaltiges Training und der Weg zur Langdistanz."
   },
   "title": "Vorträge & Workshops",
-  "lead": "Ich gebe mein Wissen auch an Vereine, Teams und Gruppen weiter. Zum Beispiel habe ich für ein Basketballteam einen Vortrag über Ernährung rund um Training und Spieltag gehalten.",
+  "lead": "Wissen weitergeben an Vereine, Teams und Gruppen. Zum Beispiel bei einem Basketballteam: ein Vortrag über Ernährung rund um Training und Spieltag.",
   "image": "/images/coaching/vortrag-basketballteam.jpg",
   "imageCaption": "Vortrag für ein Basketballteam: Ernährung rund um Training und Spieltag.",
   "topicsTitle": "Themen",
   "topics": [
     {
       "title": "Ernährung rund um Training und Wettkampf",
-      "text": "Was esse ich vor, während und nach dem Training? Und wie sieht die Verpflegung am Spieltag oder Renntag aus?"
+      "text": "Was essen vor, während und nach dem Training? Und wie sieht die Verpflegung am Spieltag oder Renntag aus?"
     },
     {
       "title": "Nachhaltig besser werden",
       "text": "Wie Belastung und Erholung zusammenspielen und warum die lockeren Tage genauso wichtig sind wie die harten."
     },
     {
-      "title": "Mein Weg zur Langdistanz",
-      "text": "Vom ersten Laufschritt 2020 bis zur Challenge Roth: was ich dabei über Training, Motivation und mich selbst gelernt habe."
+      "title": "Der Weg zur Langdistanz",
+      "text": "Vom ersten Laufschritt 2020 bis zur Challenge Roth: Erfahrungen zu Training, Motivation und Durchhaltevermögen."
     }
   ],
   "formatsTitle": "So kann es aussehen",
@@ -38,5 +38,5 @@
     }
   ],
   "ctaTitle": "Interesse an einem Vortrag?",
-  "ctaText": "Schreib mir, für wen der Vortrag ist und welches Thema Euch interessiert. Dann melde ich mich mit einem Vorschlag."
+  "ctaText": "Schreib kurz, für wen der Vortrag ist und welches Thema Euch interessiert. Dann kommt ein Vorschlag zurück."
 }

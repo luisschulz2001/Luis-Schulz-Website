@@ -72,7 +72,7 @@ function pages(code: string, label: string) {
             href: fields.select({
               label: "Verlinkt auf",
               options: [
-                { label: "Über mich", value: "about" },
+                { label: "Über Luis", value: "about" },
                 { label: "Rennen", value: "races" },
                 { label: "Coaching", value: "coaching" },
                 { label: "Vorträge", value: "talks" },
@@ -91,7 +91,7 @@ function pages(code: string, label: string) {
       },
     }),
     [`about_${code}`]: singleton({
-      label: `Über mich (${label})`,
+      label: `Über Luis (${label})`,
       path: p("about"),
       format: { data: "json" },
       schema: {
