@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Luis Schulz – Professional Triathlete & Coach",
+    "description": "Luis Schulz races as a professional triathlete from 2027. Personal triathlon coaching, race schedule and partnerships."
+  },
+  "heroEyebrow": "Professional triathlete from 2027",
+  "heroTitle": "Swim. Bike. Run. No compromises.",
+  "heroText": "I'm Luis Schulz – a triathlete on the way to professional racing and a coach for athletes who want to reach their full potential.",
+  "heroImage": null,
+  "introTitle": "Performance is built on consistency",
+  "introText": "Behind every race are thousands of training hours, a well-designed plan and the will to get a little better every day.\n\nFrom the 2027 season I race as a professional. As a coach, I share what I've learned from training, racing and sports science – structured, honest and individual.",
+  "pillars": [
+    {
+      "title": "Athlete",
+      "text": "My path into professional triathlon – background, goals and season plan.",
+      "href": "about"
+    },
+    {
+      "title": "Coaching",
+      "text": "Individual training plans and support, from your first triathlon to the full distance.",
+      "href": "coaching"
+    },
+    {
+      "title": "Partners",
+      "text": "Growing together: partnerships with brands that share performance and values.",
+      "href": "partners"
+    }
+  ],
+  "quote": "The goal isn't to be faster than others – it's to be faster than yesterday.",
+  "quoteAuthor": "Luis Schulz",
+  "ctaTitle": "Ready for your next goal?",
+  "ctaText": "Coaching, partnership or press – I look forward to hearing from you."
+}

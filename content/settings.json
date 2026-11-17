@@ -1,0 +1,19 @@
+{
+  "name": "Luis Schulz",
+  "role_de": "Profi-Triathlet & Coach",
+  "role_en": "Professional Triathlete & Coach",
+  "location": "Deutschland",
+  "emails": {
+    "general": "info@luisschulz.de",
+    "coaching": "coaching@luisschulz.de",
+    "partners": "management@luisschulz.de",
+    "press": "presse@luisschulz.de"
+  },
+  "bookingUrl": null,
+  "social": {
+    "instagram": null,
+    "strava": null,
+    "youtube": null,
+    "linkedin": null
+  }
+}

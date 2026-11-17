@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "About – Luis Schulz",
+    "description": "Background, goals and fact sheet of professional triathlete Luis Schulz."
+  },
+  "title": "About me",
+  "lead": "From my first local triathlon to a professional start: my story in triathlon.",
+  "image": null,
+  "body": "[Your personal story goes here. How did you get into triathlon? What drives you?]\n\n## My goals\n\n[Describe your sporting goals for your first professional years.]\n\n## What defines me as a coach\n\n- Experience from competing at a high level\n- Training plans based on current sports science\n- Honest, personal support",
+  "facts": [
+    {
+      "label": "Discipline",
+      "value": "Triathlon"
+    },
+    {
+      "label": "Status",
+      "value": "Professional from 2027"
+    },
+    {
+      "label": "Focus",
+      "value": "[e.g. middle distance]"
+    },
+    {
+      "label": "Home",
+      "value": "[add location]"
+    },
+    {
+      "label": "Club / team",
+      "value": "[add]"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "[Year]",
+      "title": "First triathlon",
+      "text": "[Short description]"
+    },
+    {
+      "year": "[Year]",
+      "title": "First successes",
+      "text": "[Short description]"
+    },
+    {
+      "year": "2026",
+      "title": "Preparing for professional racing",
+      "text": "[Short description]"
+    },
+    {
+      "year": "2027",
+      "title": "Racing as a professional",
+      "text": "First season with a professional licence."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "title": "Triathlon-Coaching – Luis Schulz",
+    "description": "Individuelles Triathlon-Coaching mit persönlicher Trainingsplanung und Betreuung. Jetzt Erstgespräch buchen."
+  },
+  "title": "Triathlon-Coaching",
+  "lead": "Individuelle Trainingsplanung, die zu Ihrem Leben passt – und Sie messbar schneller macht.",
+  "image": null,
+  "offers": [
+    {
+      "title": "Trainingsplan",
+      "audience": "Für Selbstständige mit klarem Ziel",
+      "text": "Ein individueller Plan für Ihr Saisonziel – abgestimmt auf Ihr Leistungsniveau und Ihre verfügbare Zeit.",
+      "features": [
+        "Individueller Plan für 8–16 Wochen",
+        "Leistungsdiagnostik-Auswertung",
+        "Ein Feedback-Call pro Monat"
+      ],
+      "price": "auf Anfrage",
+      "highlighted": false
+    },
+    {
+      "title": "Personal Coaching",
+      "audience": "Für ambitionierte Age-Grouper",
+      "text": "Laufende Betreuung mit wöchentlicher Anpassung des Trainings an Ihren Alltag und Ihre Daten.",
+      "features": [
+        "Wöchentlich angepasster Trainingsplan",
+        "Analyse Ihrer Trainingsdaten",
+        "Direkter Kontakt per Chat",
+        "Wettkampfplanung & Renntaktik"
+      ],
+      "price": "auf Anfrage",
+      "highlighted": true
+    },
+    {
+      "title": "Race Prep",
+      "audience": "Für Ihr Saisonhighlight",
+      "text": "Gezielte Vorbereitung auf ein Rennen – inklusive Pacing-Strategie, Ernährung und mentaler Vorbereitung.",
+      "features": [
+        "Pacing- & Ernährungsstrategie",
+        "Streckenanalyse",
+        "Briefing vor dem Rennen"
+      ],
+      "price": "auf Anfrage",
+      "highlighted": false
+    }
+  ],
+  "processTitle": "So läuft es ab",
+  "process": [
+    {
+      "title": "Erstgespräch",
+      "text": "Kostenloses Kennenlernen: Wir sprechen über Ihre Ziele, Ihre Erfahrung und Ihren Alltag."
+    },
+    {
+      "title": "Analyse",
+      "text": "Ich werte Ihre bisherigen Trainingsdaten aus und lege die Ausgangsbasis fest."
+    },
+    {
+      "title": "Plan & Training",
+      "text": "Sie erhalten Ihren individuellen Plan und wir starten gemeinsam."
+    },
+    {
+      "title": "Feedback & Anpassung",
+      "text": "Regelmäßige Abstimmung sorgt dafür, dass das Training zu Ihnen passt."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Für wen ist das Coaching geeignet?",
+      "answer": "Für alle, die strukturiert trainieren wollen – vom ersten Sprint-Triathlon bis zur Langdistanz."
+    },
+    {
+      "question": "Welche Plattform nutzen Sie?",
+      "answer": "[z. B. TrainingPeaks – bitte anpassen]"
+    },
+    {
+      "question": "Wie lange ist die Mindestlaufzeit?",
+      "answer": "[bitte eintragen]"
+    }
+  ]
+}

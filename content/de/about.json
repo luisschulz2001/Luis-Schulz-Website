@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Über mich – Luis Schulz",
+    "description": "Werdegang, Ziele und Steckbrief von Profi-Triathlet Luis Schulz."
+  },
+  "title": "Über mich",
+  "lead": "Vom ersten Volkstriathlon zum Profi-Start: Meine Geschichte im Triathlon.",
+  "image": null,
+  "body": "[Hier steht Ihre persönliche Geschichte. Wie sind Sie zum Triathlon gekommen? Was treibt Sie an?]\n\n## Meine Ziele\n\n[Beschreiben Sie Ihre sportlichen Ziele für die ersten Profi-Jahre – z. B. Rennserien, Distanzen, Qualifikationen.]\n\n## Was mich als Coach ausmacht\n\n- Erfahrung aus dem eigenen Leistungssport\n- Trainingsplanung auf Basis aktueller Trainingswissenschaft\n- Ehrliche, persönliche Betreuung",
+  "facts": [
+    {
+      "label": "Disziplin",
+      "value": "Triathlon"
+    },
+    {
+      "label": "Status",
+      "value": "Profi ab 2027"
+    },
+    {
+      "label": "Schwerpunkt",
+      "value": "[z. B. Mitteldistanz]"
+    },
+    {
+      "label": "Heimat",
+      "value": "[Ort eintragen]"
+    },
+    {
+      "label": "Verein / Team",
+      "value": "[eintragen]"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "[Jahr]",
+      "title": "Erster Triathlon",
+      "text": "[Kurze Beschreibung]"
+    },
+    {
+      "year": "[Jahr]",
+      "title": "Erste Erfolge",
+      "text": "[Kurze Beschreibung]"
+    },
+    {
+      "year": "2026",
+      "title": "Vorbereitung auf den Profisport",
+      "text": "[Kurze Beschreibung]"
+    },
+    {
+      "year": "2027",
+      "title": "Start als Profi-Triathlet",
+      "text": "Erste Saison mit Profi-Lizenz."
+    }
+  ]
+}

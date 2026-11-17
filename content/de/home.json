@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Luis Schulz – Profi-Triathlet & Coach",
+    "description": "Luis Schulz startet ab 2027 als Profi-Triathlet. Persönliches Triathlon-Coaching, Rennkalender und Partnerschaften."
+  },
+  "heroEyebrow": "Profi-Triathlet ab 2027",
+  "heroTitle": "Schwimmen. Radfahren. Laufen. Ohne Kompromisse.",
+  "heroText": "Ich bin Luis Schulz – Triathlet auf dem Weg in den Profisport und Coach für Athletinnen und Athleten, die ihr volles Potenzial ausschöpfen wollen.",
+  "heroImage": null,
+  "introTitle": "Leistung entsteht aus Konsequenz",
+  "introText": "Hinter jedem Rennen stehen tausende Trainingsstunden, ein durchdachter Plan und der Wille, jeden Tag ein bisschen besser zu werden.\n\nAb der Saison 2027 starte ich als Profi. Mein Wissen aus Training, Wettkampf und Trainingswissenschaft gebe ich als Coach weiter – strukturiert, ehrlich und individuell.",
+  "pillars": [
+    {
+      "title": "Athlet",
+      "text": "Mein Weg in den Profi-Triathlon – Werdegang, Ziele und Saisonplanung.",
+      "href": "about"
+    },
+    {
+      "title": "Coaching",
+      "text": "Individuelle Trainingsplanung und Betreuung vom ersten Triathlon bis zur Langdistanz.",
+      "href": "coaching"
+    },
+    {
+      "title": "Partner",
+      "text": "Gemeinsam wachsen: Partnerschaften mit Marken, die Leistung und Werte teilen.",
+      "href": "partners"
+    }
+  ],
+  "quote": "Das Ziel ist nicht, schneller zu sein als andere – sondern schneller als gestern.",
+  "quoteAuthor": "Luis Schulz",
+  "ctaTitle": "Bereit für Ihr nächstes Ziel?",
+  "ctaText": "Ob Coaching-Anfrage, Partnerschaft oder Presse – ich freue mich auf Ihre Nachricht."
+}

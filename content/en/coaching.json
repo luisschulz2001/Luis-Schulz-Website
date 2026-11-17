@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "title": "Triathlon coaching – Luis Schulz",
+    "description": "Individual triathlon coaching with personal training plans and support. Book a free intro call."
+  },
+  "title": "Triathlon coaching",
+  "lead": "Individual training that fits your life – and makes you measurably faster.",
+  "image": null,
+  "offers": [
+    {
+      "title": "Training plan",
+      "audience": "For self-driven athletes with a clear goal",
+      "text": "An individual plan for your season goal – matched to your level and the time you have.",
+      "features": [
+        "Individual 8–16 week plan",
+        "Performance test analysis",
+        "One feedback call per month"
+      ],
+      "price": "on request",
+      "highlighted": false
+    },
+    {
+      "title": "Personal coaching",
+      "audience": "For ambitious age-groupers",
+      "text": "Ongoing support with weekly adjustments to your training, your schedule and your data.",
+      "features": [
+        "Weekly adjusted training plan",
+        "Training data analysis",
+        "Direct contact via chat",
+        "Race planning & tactics"
+      ],
+      "price": "on request",
+      "highlighted": true
+    },
+    {
+      "title": "Race prep",
+      "audience": "For your season highlight",
+      "text": "Targeted preparation for one race – including pacing, nutrition and mental preparation.",
+      "features": [
+        "Pacing & nutrition strategy",
+        "Course analysis",
+        "Pre-race briefing"
+      ],
+      "price": "on request",
+      "highlighted": false
+    }
+  ],
+  "processTitle": "How it works",
+  "process": [
+    {
+      "title": "Intro call",
+      "text": "A free first conversation about your goals, experience and everyday life."
+    },
+    {
+      "title": "Analysis",
+      "text": "I review your training data and define the starting point."
+    },
+    {
+      "title": "Plan & training",
+      "text": "You receive your individual plan and we get started."
+    },
+    {
+      "title": "Feedback & adjustment",
+      "text": "Regular check-ins make sure training keeps fitting you."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Who is the coaching for?",
+      "answer": "Anyone who wants to train with structure – from a first sprint triathlon to the full distance."
+    },
+    {
+      "question": "Which platform do you use?",
+      "answer": "[e.g. TrainingPeaks – please adjust]"
+    },
+    {
+      "question": "Is there a minimum term?",
+      "answer": "[please add]"
+    }
+  ]
+}
