@@ -6,45 +6,22 @@
   "title": "Triathlon coaching",
   "lead": "Individual training that fits your life – and makes you measurably faster.",
   "image": null,
-  "offers": [
-    {
-      "title": "Training plan",
-      "audience": "For self-driven athletes with a clear goal",
-      "text": "An individual plan for your season goal – matched to your level and the time you have.",
-      "features": [
-        "Individual 8–16 week plan",
-        "Performance test analysis",
-        "One feedback call per month"
-      ],
-      "price": "on request",
-      "highlighted": false
-    },
-    {
-      "title": "Personal coaching",
-      "audience": "For ambitious age-groupers",
-      "text": "Ongoing support with weekly adjustments to your training, your schedule and your data.",
-      "features": [
-        "Weekly adjusted training plan",
-        "Training data analysis",
-        "Direct contact via chat",
-        "Race planning & tactics"
-      ],
-      "price": "on request",
-      "highlighted": true
-    },
-    {
-      "title": "Race prep",
-      "audience": "For your season highlight",
-      "text": "Targeted preparation for one race – including pacing, nutrition and mental preparation.",
-      "features": [
-        "Pacing & nutrition strategy",
-        "Course analysis",
-        "Pre-race briefing"
-      ],
-      "price": "on request",
-      "highlighted": false
-    }
-  ],
+  "offer": {
+    "title": "Premium Coaching",
+    "audience": "Individual 1:1 support",
+    "text": "One coach, one plan, one goal: I coach you personally – with training that adapts week by week to your life, your data and your goals. From season planning to the finish line.",
+    "features": [
+      "Individual training plan, adjusted every week",
+      "Analysis of your training and performance data",
+      "Direct contact via chat – fast answers",
+      "Regular personal video calls",
+      "Season and race planning",
+      "Pacing, nutrition and race strategy",
+      "Mental preparation and pre-race briefing"
+    ],
+    "price": "on request",
+    "note": "Limited spots – to keep the support truly personal."
+  },
   "processTitle": "How it works",
   "process": [
     {

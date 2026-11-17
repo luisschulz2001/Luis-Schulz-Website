@@ -73,14 +73,14 @@ export type CoachingContent = {
   title: string;
   lead: string;
   image: string | null;
-  offers: {
+  offer: {
     title: string;
     audience: string;
     text: string;
     features: string[];
     price: string;
-    highlighted: boolean;
-  }[];
+    note: string;
+  };
   processTitle: string;
   process: { title: string; text: string }[];
   faq: { question: string; answer: string }[];

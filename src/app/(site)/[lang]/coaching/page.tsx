@@ -20,6 +20,7 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
   const c = getCoaching(lang);
   const contact = getContact(lang);
   const t = getDictionary(lang);
+  const o = c.offer;
 
   return (
     <>
@@ -29,47 +30,42 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
         <Visual src={c.image} alt={c.title} className="aspect-[16/9] md:aspect-[21/9]" sizes="100vw" />
       </section>
 
-      {/* Angebote */}
+      {/* Angebot */}
       <section className="container-page mt-24 md:mt-32">
-        <h2 className="h-section mb-10 text-4xl md:text-5xl">{t.coaching.offers}</h2>
-        <div className="grid gap-4 lg:grid-cols-3">
-          {c.offers.map((o) => (
-            <article
-              key={o.title}
-              className={`relative flex flex-col rounded-[1.75rem] p-8 md:p-10 ${
-                o.highlighted ? "bg-ink text-white" : "border border-line bg-surface"
-              }`}
-            >
-              {o.highlighted && (
-                <span className="absolute top-8 right-8 rounded-full bg-gold px-3 py-1 text-xs font-semibold tracking-wide text-ink uppercase">
-                  {t.coaching.popular}
-                </span>
-              )}
-              <p className={`text-sm ${o.highlighted ? "text-white/60" : "text-muted"}`}>{o.audience}</p>
-              <h3 className="h-section mt-3 text-3xl">{o.title}</h3>
-              <p className={`mt-4 leading-relaxed ${o.highlighted ? "text-white/75" : "text-muted"}`}>{o.text}</p>
-              <ul className="mt-8 space-y-3 text-[0.9375rem]">
-                {o.features.map((f) => (
-                  <li key={f} className="flex gap-3">
-                    <svg viewBox="0 0 16 16" className={`mt-1 h-4 w-4 shrink-0 ${o.highlighted ? "text-gold" : "text-accent"}`} aria-hidden>
-                      <path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <div className={`mt-auto pt-10 ${o.highlighted ? "border-white/15" : "border-line"}`}>
-                <p className="h-section text-xl">{o.price}</p>
-                <Link
-                  href={href(lang, "contact")}
-                  className={`btn mt-5 w-full ${o.highlighted ? "btn-light" : "btn-primary"}`}
-                >
-                  {t.cta.contact} <Arrow />
+        <p className="eyebrow mb-6">{t.coaching.offer}</p>
+        <article className="relative grid overflow-hidden rounded-[2rem] bg-ink text-white lg:grid-cols-12">
+          <div className="pointer-events-none absolute -bottom-32 -left-32 h-96 w-96 rounded-full border border-white/5" aria-hidden />
+          <div className="relative flex flex-col p-8 md:p-14 lg:col-span-7">
+            <p className="text-sm tracking-wide text-gold">{o.audience}</p>
+            <h2 className="h-display mt-4 text-5xl md:text-6xl">{o.title}</h2>
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75">{o.text}</p>
+            <div className="mt-auto pt-12">
+              <p className="h-section text-3xl">{o.price}</p>
+              {o.note && <p className="mt-2 text-sm text-white/55">{o.note}</p>}
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link href={`${href(lang, "contact")}#booking`} className="btn btn-light">
+                  {t.cta.book} <Arrow />
+                </Link>
+                <Link href={href(lang, "contact")} className="btn border border-white/25 text-white hover:border-white">
+                  {t.cta.contact}
                 </Link>
               </div>
-            </article>
-          ))}
-        </div>
+            </div>
+          </div>
+          <div className="relative border-t border-white/10 p-8 md:p-14 lg:col-span-5 lg:border-t-0 lg:border-l">
+            <p className="eyebrow !text-white/50">{t.coaching.included}</p>
+            <ul className="mt-6 divide-y divide-white/10">
+              {o.features.map((f) => (
+                <li key={f} className="flex gap-4 py-4">
+                  <svg viewBox="0 0 16 16" className="mt-1 h-4 w-4 shrink-0 text-gold" aria-hidden>
+                    <path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  <span className="text-white/90">{f}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </article>
       </section>
 
       {/* Ablauf */}

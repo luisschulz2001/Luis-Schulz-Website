@@ -46,7 +46,7 @@ const dictionaries = {
     },
     home: { upcomingTitle: "Nächste Rennen", testimonialsTitle: "Stimmen" },
     about: { facts: "Steckbrief", timeline: "Werdegang" },
-    coaching: { offers: "Angebote", faq: "Häufige Fragen", popular: "Beliebt" },
+    coaching: { offer: "Das Angebot", faq: "Häufige Fragen", included: "Enthalten" },
     partners: { current: "Partner & Unterstützer", none: "Hier ist Platz für Ihre Marke." },
     contact: {
       formTitle: "Nachricht schreiben",
@@ -124,7 +124,7 @@ const dictionaries = {
     },
     home: { upcomingTitle: "Upcoming races", testimonialsTitle: "What athletes say" },
     about: { facts: "Fact sheet", timeline: "Journey" },
-    coaching: { offers: "Programmes", faq: "FAQ", popular: "Popular" },
+    coaching: { offer: "The programme", faq: "FAQ", included: "Included" },
     partners: { current: "Partners & supporters", none: "This space is reserved for your brand." },
     contact: {
       formTitle: "Send a message",

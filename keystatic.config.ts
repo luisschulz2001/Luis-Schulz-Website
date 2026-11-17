@@ -138,8 +138,8 @@ function pages(code: string, label: string) {
         title: fields.text({ label: "Überschrift" }),
         lead: fields.text({ label: "Einleitung", multiline: true }),
         image: heroImage("coaching"),
-        offers: fields.array(
-          fields.object({
+        offer: fields.object(
+          {
             title: fields.text({ label: "Name des Angebots" }),
             audience: fields.text({ label: "Für wen?" }),
             text: fields.text({ label: "Beschreibung", multiline: true }),
@@ -147,10 +147,10 @@ function pages(code: string, label: string) {
               label: "Leistungen",
               itemLabel: (i) => i.value,
             }),
-            price: fields.text({ label: "Preis (z. B. „ab 149 € / Monat“ oder „auf Anfrage“)" }),
-            highlighted: fields.checkbox({ label: "Hervorheben" }),
-          }),
-          { label: "Angebote", itemLabel: (i) => i.fields.title.value || "Angebot" },
+            price: fields.text({ label: "Preis (z. B. „ab 249 € / Monat“ oder „auf Anfrage“)" }),
+            note: fields.text({ label: "Hinweis (z. B. „Begrenzte Plätze“) – optional" }),
+          },
+          { label: "Coaching-Angebot" },
         ),
         processTitle: fields.text({ label: "Ablauf – Überschrift" }),
         process: fields.array(

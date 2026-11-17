@@ -6,45 +6,22 @@
   "title": "Triathlon-Coaching",
   "lead": "Individuelle Trainingsplanung, die zu Ihrem Leben passt – und Sie messbar schneller macht.",
   "image": null,
-  "offers": [
-    {
-      "title": "Trainingsplan",
-      "audience": "Für Selbstständige mit klarem Ziel",
-      "text": "Ein individueller Plan für Ihr Saisonziel – abgestimmt auf Ihr Leistungsniveau und Ihre verfügbare Zeit.",
-      "features": [
-        "Individueller Plan für 8–16 Wochen",
-        "Leistungsdiagnostik-Auswertung",
-        "Ein Feedback-Call pro Monat"
-      ],
-      "price": "auf Anfrage",
-      "highlighted": false
-    },
-    {
-      "title": "Personal Coaching",
-      "audience": "Für ambitionierte Age-Grouper",
-      "text": "Laufende Betreuung mit wöchentlicher Anpassung des Trainings an Ihren Alltag und Ihre Daten.",
-      "features": [
-        "Wöchentlich angepasster Trainingsplan",
-        "Analyse Ihrer Trainingsdaten",
-        "Direkter Kontakt per Chat",
-        "Wettkampfplanung & Renntaktik"
-      ],
-      "price": "auf Anfrage",
-      "highlighted": true
-    },
-    {
-      "title": "Race Prep",
-      "audience": "Für Ihr Saisonhighlight",
-      "text": "Gezielte Vorbereitung auf ein Rennen – inklusive Pacing-Strategie, Ernährung und mentaler Vorbereitung.",
-      "features": [
-        "Pacing- & Ernährungsstrategie",
-        "Streckenanalyse",
-        "Briefing vor dem Rennen"
-      ],
-      "price": "auf Anfrage",
-      "highlighted": false
-    }
-  ],
+  "offer": {
+    "title": "Premium Coaching",
+    "audience": "Individuelle 1:1-Betreuung",
+    "text": "Ein Coach, ein Plan, ein Ziel: Ich betreue Sie persönlich – mit einem Training, das sich Woche für Woche an Ihren Alltag, Ihre Daten und Ihre Ziele anpasst. Von der Saisonplanung bis zur Ziellinie.",
+    "features": [
+      "Individueller, wöchentlich angepasster Trainingsplan",
+      "Analyse Ihrer Trainings- und Leistungsdaten",
+      "Direkter Kontakt per Chat – schnelle Antworten",
+      "Regelmäßige persönliche Video-Calls",
+      "Saison- und Wettkampfplanung",
+      "Pacing-, Ernährungs- und Rennstrategie",
+      "Mentale Vorbereitung und Briefing vor dem Rennen"
+    ],
+    "price": "auf Anfrage",
+    "note": "Begrenzte Plätze – für eine wirklich persönliche Betreuung."
+  },
   "processTitle": "So läuft es ab",
   "process": [
     {
