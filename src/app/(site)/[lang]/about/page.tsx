@@ -26,7 +26,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
 
       <section className="container-page grid gap-12 lg:grid-cols-12">
         <div className="lg:col-span-5">
-          <Visual src={c.image} alt={c.title} className="aspect-[4/5] lg:sticky lg:top-28" />
+          <Visual src={c.image} alt={c.title} priority className="aspect-[4/5] lg:sticky lg:top-28" />
         </div>
         <div className="lg:col-span-6 lg:col-start-7">
           <RichText text={c.body} />
@@ -46,6 +46,14 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
           )}
         </div>
       </section>
+
+      {c.gallery.length > 0 && (
+        <section className="container-page mt-24 grid gap-4 sm:grid-cols-3 md:mt-32">
+          {c.gallery.map((g) => (
+            <Visual key={g.image ?? g.alt} src={g.image} alt={g.alt} className="aspect-[4/5]" sizes="(min-width: 640px) 33vw, 100vw" />
+          ))}
+        </section>
+      )}
 
       {c.timeline.length > 0 && (
         <section className="container-page mt-24 md:mt-32">

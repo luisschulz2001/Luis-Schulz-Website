@@ -62,6 +62,7 @@ export type AboutContent = {
   lead: string;
   image: string | null;
   body: string;
+  gallery: { image: string | null; alt: string }[];
   facts: { label: string; value: string }[];
   timeline: { year: string; title: string; text: string }[];
 };
@@ -73,6 +74,7 @@ export type CoachingContent = {
   title: string;
   lead: string;
   image: string | null;
+  imageCaption: string;
   offer: {
     title: string;
     audience: string;
@@ -91,6 +93,7 @@ export type PartnersContent = {
   seo: Seo;
   title: string;
   lead: string;
+  image: string | null;
   benefitsTitle: string;
   benefits: { title: string; text: string }[];
   ctaTitle: string;

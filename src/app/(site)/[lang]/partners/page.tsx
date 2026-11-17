@@ -2,6 +2,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
+import { Visual } from "@/components/Visual";
 import { getPartners, getPartnersPage, getSettings } from "@/lib/content";
 import { getDictionary, hasLocale, href } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/metadata";
@@ -23,6 +24,12 @@ export default async function PartnersPage({ params }: PageProps<"/[lang]/partne
   return (
     <>
       <PageHeader eyebrow={t.nav.partners} title={c.title} lead={c.lead} />
+
+      {c.image && (
+        <section className="container-page mb-20 md:mb-28">
+          <Visual src={c.image} alt={c.title} priority className="aspect-[3/2] md:aspect-[21/9]" sizes="100vw" position="center 15%" />
+        </section>
+      )}
 
       <section className="container-page">
         <h2 className="eyebrow mb-6">{t.partners.current}</h2>

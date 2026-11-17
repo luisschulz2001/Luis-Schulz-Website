@@ -5,7 +5,7 @@
   },
   "title": "Über mich",
   "lead": "Seit 2020 laufe ich, Ende 2022 kam der Triathlon dazu. Ab 2027 starte ich als Profi.",
-  "image": null,
+  "image": "/images/about/roth-zieleinlauf.jpg",
   "body": "Angefangen hat alles 2020 mit dem Laufen. Ende 2022 kamen Schwimmen und Radfahren dazu, und seitdem hat mich der Triathlon nicht mehr losgelassen.\n\nIch komme aus der Region München. Mit meiner Heimat Bayern verbinde ich sehr viel.\n\n## Meine Lieblingsdistanz\n\nAm meisten begeistert mich die Langdistanz. Ich mag es, diese Rennen mit offenem Visier anzugehen. Meine bisher schönsten Rennen waren meine beiden Starts bei der Challenge Roth: 2025 habe ich dort meine Altersklasse AK 20 gewonnen, 2026 war ich unter den Top 10 aller Age-Grouper.\n\n## Warum ich coache\n\nMich interessiert die Sportwissenschaft sehr, aber vor allem interessieren mich Menschen. Für jede Person eine eigene Lösung zu finden, macht mir große Freude. Einen Plan, der für alle passt, gibt es für mich nicht.",
   "facts": [
     {
@@ -62,6 +62,20 @@
       "year": "2027",
       "title": "Profi",
       "text": "Meine erste Saison mit Profi-Lizenz."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/images/about/gallery/roth-rad-fans.jpg",
+      "alt": "Luis Schulz auf dem Rad bei der Challenge Roth, umgeben von jubelnden Zuschauern"
+    },
+    {
+      "image": "/images/about/gallery/rennrad-kurve.jpg",
+      "alt": "Luis Schulz auf dem Zeitfahrrad in einer Kurve"
+    },
+    {
+      "image": "/images/about/gallery/lauf-burgenland.jpg",
+      "alt": "Luis Schulz beim Laufen im Burgenland"
     }
   ]
 }

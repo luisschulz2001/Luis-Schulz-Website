@@ -99,6 +99,17 @@ function pages(code: string, label: string) {
         lead: fields.text({ label: "Einleitung", multiline: true }),
         image: heroImage("about"),
         body: longText("Text"),
+        gallery: fields.array(
+          fields.object({
+            image: fields.image({
+              label: "Bild",
+              directory: "public/images/about/gallery",
+              publicPath: "/images/about/gallery/",
+            }),
+            alt: fields.text({ label: "Bildbeschreibung (für Barrierefreiheit & Google)" }),
+          }),
+          { label: "Bildergalerie", itemLabel: (i) => i.fields.alt.value || "Bild" },
+        ),
         facts: fields.array(
           fields.object({
             label: fields.text({ label: "Bezeichnung" }),
@@ -138,6 +149,7 @@ function pages(code: string, label: string) {
         title: fields.text({ label: "Überschrift" }),
         lead: fields.text({ label: "Einleitung", multiline: true }),
         image: heroImage("coaching"),
+        imageCaption: fields.text({ label: "Bildunterschrift" }),
         offer: fields.object(
           {
             title: fields.text({ label: "Name des Angebots" }),
@@ -184,6 +196,7 @@ function pages(code: string, label: string) {
         seo,
         title: fields.text({ label: "Überschrift" }),
         lead: fields.text({ label: "Einleitung", multiline: true }),
+        image: heroImage("partners-page"),
         benefitsTitle: fields.text({ label: "Vorteile – Überschrift" }),
         benefits: fields.array(
           fields.object({

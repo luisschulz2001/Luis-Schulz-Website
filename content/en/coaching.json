@@ -5,7 +5,7 @@
   },
   "title": "Coaching",
   "lead": "I'm interested in sports science, but above all I'm interested in people. Finding the right approach for each athlete gives me a lot of joy. That's why I deliberately coach only a few and want to know each of them well.",
-  "image": null,
+  "image": "/images/coaching/vortrag-ernaehrung.jpg",
   "offer": {
     "title": "1:1 Coaching",
     "audience": "Personal coaching",
@@ -75,5 +75,6 @@
       "question": "Who is the coaching for?",
       "answer": "Anyone who takes triathlon seriously and wants close support. Whether you're just starting out or planning your next full distance."
     }
-  ]
+  ],
+  "imageCaption": "Talk for a basketball team: nutrition around training and game day."
 }

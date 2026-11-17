@@ -2,7 +2,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/Arrow";
 import { CtaBand } from "@/components/CtaBand";
-import { PageHeader } from "@/components/PageHeader";
 import { Visual } from "@/components/Visual";
 import { getCoaching, getContact } from "@/lib/content";
 import { getDictionary, hasLocale, href } from "@/lib/i18n";
@@ -24,10 +23,16 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
 
   return (
     <>
-      <PageHeader eyebrow={t.nav.coaching} title={c.title} lead={c.lead} />
-
-      <section className="container-page">
-        <Visual src={c.image} alt={c.title} className="aspect-[16/9] md:aspect-[21/9]" sizes="100vw" />
+      <section className="container-page grid items-end gap-10 pt-16 md:pt-24 lg:grid-cols-12 lg:gap-16">
+        <div className="lg:col-span-7">
+          <p className="eyebrow mb-5">{t.nav.coaching}</p>
+          <h1 className="h-display text-5xl md:text-7xl">{c.title}</h1>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">{c.lead}</p>
+        </div>
+        <figure className="lg:col-span-5">
+          <Visual src={c.image} alt={c.imageCaption || c.title} priority className="aspect-[4/5]" sizes="(min-width: 1024px) 40vw, 100vw" />
+          {c.imageCaption && <figcaption className="mt-3 text-sm text-muted">{c.imageCaption}</figcaption>}
+        </figure>
       </section>
 
       {/* Angebot */}

@@ -10,17 +10,20 @@ export function Visual({
   className = "",
   priority = false,
   sizes = "(min-width: 1024px) 50vw, 100vw",
+  position = "center",
 }: {
   src: string | null;
   alt: string;
   className?: string;
   priority?: boolean;
   sizes?: string;
+  /** Bildausschnitt, z. B. "center 20%" damit der Kopf sichtbar bleibt */
+  position?: string;
 }) {
   return (
     <div className={`relative overflow-hidden rounded-[1.75rem] bg-ink ${className}`}>
       {src ? (
-        <Image src={src} alt={alt} fill priority={priority} sizes={sizes} className="object-cover" />
+        <Image src={src} alt={alt} fill priority={priority} sizes={sizes} className="object-cover" style={{ objectPosition: position }} />
       ) : (
         <Placeholder />
       )}
