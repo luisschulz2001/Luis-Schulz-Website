@@ -35,6 +35,9 @@
     "price": "Price on request",
     "note": "I only take on a few athletes so I have enough time for each of them."
   },
+  "philosophyTitle": "My training philosophy",
+  "philosophyText": "What matters to me is sustainable development in sport. That's why I prefer to work with my athletes over the long term. Only then can health and athletic development go hand in hand.\n\nIn training this means: the easy days are truly easy. The hard days are hard, but in a way you can sustain over time.",
+  "philosophyQuote": "Keep the easy days easier than easy and the hard days sustainably hard.",
   "processTitle": "How we start",
   "process": [
     {
@@ -62,6 +65,10 @@
     {
       "question": "Why do you coach only a few athletes?",
       "answer": "Because I want to know each of them. I want to notice when something is getting too much before it shows up in the data. That only works if we talk regularly."
+    },
+    {
+      "question": "How long do we work together?",
+      "answer": "Ideally for the long term. Sustainable progress takes time, and the longer we work together, the better I know you and what works for you."
     },
     {
       "question": "Why TrainingPeaks?",

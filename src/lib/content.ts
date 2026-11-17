@@ -84,6 +84,9 @@ export type CoachingContent = {
     price: string;
     note: string;
   };
+  philosophyTitle: string;
+  philosophyText: string;
+  philosophyQuote: string;
   processTitle: string;
   process: { title: string; text: string }[];
   faq: { question: string; answer: string }[];

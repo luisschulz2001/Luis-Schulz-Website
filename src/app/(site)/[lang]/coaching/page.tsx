@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/Arrow";
 import { CtaBand } from "@/components/CtaBand";
+import { RichText } from "@/components/RichText";
 import { Visual } from "@/components/Visual";
 import { getCoaching, getContact } from "@/lib/content";
 import { getDictionary, hasLocale, href } from "@/lib/i18n";
@@ -85,6 +86,21 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
           </div>
         </article>
       </section>
+
+      {/* Trainingsphilosophie */}
+      {c.philosophyText && (
+        <section className="container-page mt-24 grid gap-10 md:mt-32 lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-5">
+            <h2 className="h-section text-4xl md:text-5xl">{c.philosophyTitle}</h2>
+            {c.philosophyQuote && (
+              <blockquote className="mt-8 border-l-2 border-gold pl-6 font-serif text-3xl leading-snug italic md:text-4xl">
+                {c.philosophyQuote}
+              </blockquote>
+            )}
+          </div>
+          <RichText text={c.philosophyText} className="lg:col-span-6 lg:col-start-7" />
+        </section>
+      )}
 
       {/* Ablauf */}
       {c.process.length > 0 && (

@@ -171,6 +171,9 @@ function pages(code: string, label: string) {
           },
           { label: "Coaching-Angebot" },
         ),
+        philosophyTitle: fields.text({ label: "Trainingsphilosophie – Überschrift" }),
+        philosophyText: longText("Trainingsphilosophie – Text"),
+        philosophyQuote: fields.text({ label: "Trainingsphilosophie – Leitsatz", multiline: true }),
         processTitle: fields.text({ label: "Ablauf – Überschrift" }),
         process: fields.array(
           fields.object({

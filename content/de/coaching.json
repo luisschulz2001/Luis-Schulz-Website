@@ -35,6 +35,9 @@
     "price": "Preis auf Anfrage",
     "note": "Ich nehme nur wenige Athleten an, damit ich für jeden genug Zeit habe."
   },
+  "philosophyTitle": "Meine Trainingsphilosophie",
+  "philosophyText": "Mir geht es um eine nachhaltige Entwicklung im Sport. Deshalb arbeite ich am liebsten langfristig mit meinen Athletinnen und Athleten zusammen. Nur so können Gesundheit und sportliche Entwicklung Hand in Hand gehen.\n\nIm Training heißt das: Die lockeren Tage sind wirklich locker. Die harten Tage sind hart, aber so, dass Du sie auf Dauer durchhalten kannst.",
+  "philosophyQuote": "Keep the easy days easier than easy and the hard days sustainably hard.",
   "processTitle": "So fangen wir an",
   "process": [
     {
@@ -62,6 +65,10 @@
     {
       "question": "Warum coachst Du nur wenige Athleten?",
       "answer": "Weil ich jeden kennen will. Ich möchte merken, wenn Dir etwas zu viel wird, bevor es in den Daten auftaucht. Das klappt nur, wenn wir regelmäßig miteinander reden."
+    },
+    {
+      "question": "Wie lange arbeiten wir zusammen?",
+      "answer": "Am liebsten langfristig. Nachhaltige Fortschritte brauchen Zeit, und je länger wir zusammenarbeiten, desto besser kenne ich Dich und weiß, was Dir guttut."
     },
     {
       "question": "Warum TrainingPeaks?",
