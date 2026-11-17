@@ -143,6 +143,13 @@ function pages(code: string, label: string) {
             title: fields.text({ label: "Name des Angebots" }),
             audience: fields.text({ label: "Für wen?" }),
             text: fields.text({ label: "Beschreibung", multiline: true }),
+            highlights: fields.array(
+              fields.object({
+                value: fields.text({ label: "Kennzahl (z. B. „< 3 h“)" }),
+                label: fields.text({ label: "Beschreibung (z. B. „Reaktionszeit“)" }),
+              }),
+              { label: "Kernversprechen (groß hervorgehoben)", itemLabel: (i) => `${i.fields.value.value} – ${i.fields.label.value}` },
+            ),
             features: fields.array(fields.text({ label: "Leistung" }), {
               label: "Leistungen",
               itemLabel: (i) => i.value,

@@ -1,26 +1,41 @@
 {
   "seo": {
     "title": "Triathlon coaching – Luis Schulz",
-    "description": "Individual triathlon coaching with personal training plans and support. Book a free intro call."
+    "description": "Hands-on triathlon coaching: ongoing 1:1 support via WhatsApp, replies in under 3 hours, day-to-day planning when needed."
   },
   "title": "Triathlon coaching",
-  "lead": "Individual training that fits your life – and makes you measurably faster.",
+  "lead": "Hands-on instead of off-the-shelf plans: I support you continuously and personally – in direct contact via WhatsApp, with fast replies and planning that adapts to your life day by day.",
   "image": null,
   "offer": {
     "title": "Premium Coaching",
-    "audience": "Individual 1:1 support",
-    "text": "One coach, one plan, one goal: I coach you personally – with training that adapts week by week to your life, your data and your goals. From season planning to the finish line.",
+    "audience": "Hands-on 1:1 support",
+    "text": "I'm not there once a week – I'm there whenever it matters. We stay in ongoing contact via WhatsApp: heavy legs, a business trip, a sick child or a great day – I adjust your training right away. When needed, we plan day by day.",
+    "highlights": [
+      {
+        "value": "< 3 h",
+        "label": "Response time"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "Ongoing direct contact"
+      },
+      {
+        "value": "Day to day",
+        "label": "Planning when needed"
+      }
+    ],
     "features": [
-      "Individual training plan, adjusted every week",
+      "Ongoing contact via WhatsApp – as often as you need",
+      "Replies in under 3 hours",
+      "Day-to-day planning when needed",
+      "Immediate adjustments to life, form and health",
       "Analysis of your training and performance data",
-      "Direct contact via chat – fast answers",
-      "Regular personal video calls",
       "Season and race planning",
       "Pacing, nutrition and race strategy",
-      "Mental preparation and pre-race briefing"
+      "Personal briefing before every race"
     ],
     "price": "on request",
-    "note": "Limited spots – to keep the support truly personal."
+    "note": "Limited spots – that's the only way to keep support this close."
   },
   "processTitle": "How it works",
   "process": [
@@ -33,26 +48,30 @@
       "text": "I review your training data and define the starting point."
     },
     {
-      "title": "Plan & training",
-      "text": "You receive your individual plan and we get started."
+      "title": "Start & direct line",
+      "text": "You get your plan and my direct WhatsApp line – from now on we're in constant contact."
     },
     {
-      "title": "Feedback & adjustment",
-      "text": "Regular check-ins make sure training keeps fitting you."
+      "title": "Adjust daily",
+      "text": "We adapt training whenever needed – day by day if required."
     }
   ],
   "faq": [
     {
+      "question": "How fast do you reply?",
+      "answer": "In under 3 hours. Just message me on WhatsApp whenever you have a question or something needs adjusting."
+    },
+    {
+      "question": "How often can we talk?",
+      "answer": "As often as you need. The coaching is deliberately hands-on – from a quick question before a session to daily check-ins."
+    },
+    {
+      "question": "What does day-to-day planning mean?",
+      "answer": "Instead of a rigid weekly plan, we can set your training fresh each day when needed – matched to your form, your sleep and your schedule."
+    },
+    {
       "question": "Who is the coaching for?",
-      "answer": "Anyone who wants to train with structure – from a first sprint triathlon to the full distance."
-    },
-    {
-      "question": "Which platform do you use?",
-      "answer": "[e.g. TrainingPeaks – please adjust]"
-    },
-    {
-      "question": "Is there a minimum term?",
-      "answer": "[please add]"
+      "answer": "Ambitious athletes who want close, personal support – from a first triathlon to the full distance."
     }
   ]
 }

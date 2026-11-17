@@ -77,6 +77,7 @@ export type CoachingContent = {
     title: string;
     audience: string;
     text: string;
+    highlights: { value: string; label: string }[];
     features: string[];
     price: string;
     note: string;

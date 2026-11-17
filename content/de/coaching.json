@@ -1,26 +1,41 @@
 {
   "seo": {
     "title": "Triathlon-Coaching – Luis Schulz",
-    "description": "Individuelles Triathlon-Coaching mit persönlicher Trainingsplanung und Betreuung. Jetzt Erstgespräch buchen."
+    "description": "Hands-on Triathlon-Coaching: laufende 1:1-Betreuung per WhatsApp, Antwort in unter 3 Stunden, Planung nach Bedarf Tag für Tag."
   },
   "title": "Triathlon-Coaching",
-  "lead": "Individuelle Trainingsplanung, die zu Ihrem Leben passt – und Sie messbar schneller macht.",
+  "lead": "Hands-on statt Trainingsplan von der Stange: Ich begleite Sie laufend und persönlich – im direkten Austausch per WhatsApp, mit schnellen Antworten und einer Planung, die sich Tag für Tag an Ihr Leben anpasst.",
   "image": null,
   "offer": {
     "title": "Premium Coaching",
-    "audience": "Individuelle 1:1-Betreuung",
-    "text": "Ein Coach, ein Plan, ein Ziel: Ich betreue Sie persönlich – mit einem Training, das sich Woche für Woche an Ihren Alltag, Ihre Daten und Ihre Ziele anpasst. Von der Saisonplanung bis zur Ziellinie.",
+    "audience": "Hands-on 1:1-Betreuung",
+    "text": "Ich bin nicht nur einmal pro Woche für Sie da, sondern immer dann, wenn es zählt. Wir stehen laufend per WhatsApp im Gespräch: Müde Beine, Dienstreise, ein krankes Kind oder ein Top-Tag – ich passe Ihr Training sofort an. Bei Bedarf planen wir Tag für Tag.",
+    "highlights": [
+      {
+        "value": "< 3 h",
+        "label": "Reaktionszeit"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "Laufend im direkten Austausch"
+      },
+      {
+        "value": "Day to day",
+        "label": "Planung nach Bedarf"
+      }
+    ],
     "features": [
-      "Individueller, wöchentlich angepasster Trainingsplan",
+      "Laufender Austausch per WhatsApp – so oft Sie es brauchen",
+      "Antwort in weniger als 3 Stunden",
+      "Day-to-day-Planung nach Bedarf",
+      "Sofortige Anpassung an Alltag, Form und Gesundheit",
       "Analyse Ihrer Trainings- und Leistungsdaten",
-      "Direkter Kontakt per Chat – schnelle Antworten",
-      "Regelmäßige persönliche Video-Calls",
       "Saison- und Wettkampfplanung",
       "Pacing-, Ernährungs- und Rennstrategie",
-      "Mentale Vorbereitung und Briefing vor dem Rennen"
+      "Persönliches Briefing vor jedem Rennen"
     ],
     "price": "auf Anfrage",
-    "note": "Begrenzte Plätze – für eine wirklich persönliche Betreuung."
+    "note": "Begrenzte Plätze – nur so ist diese Nähe in der Betreuung möglich."
   },
   "processTitle": "So läuft es ab",
   "process": [
@@ -33,26 +48,30 @@
       "text": "Ich werte Ihre bisherigen Trainingsdaten aus und lege die Ausgangsbasis fest."
     },
     {
-      "title": "Plan & Training",
-      "text": "Sie erhalten Ihren individuellen Plan und wir starten gemeinsam."
+      "title": "Start & WhatsApp-Draht",
+      "text": "Sie erhalten Ihren Plan und meinen direkten Draht – ab jetzt sind wir laufend im Gespräch."
     },
     {
-      "title": "Feedback & Anpassung",
-      "text": "Regelmäßige Abstimmung sorgt dafür, dass das Training zu Ihnen passt."
+      "title": "Täglich nachsteuern",
+      "text": "Wir passen das Training an, wann immer es nötig ist – bei Bedarf Tag für Tag."
     }
   ],
   "faq": [
     {
+      "question": "Wie schnell antworten Sie?",
+      "answer": "In weniger als 3 Stunden. Schreiben Sie mir einfach per WhatsApp, wenn Sie Fragen haben oder etwas angepasst werden muss."
+    },
+    {
+      "question": "Wie oft können wir uns austauschen?",
+      "answer": "So oft Sie es brauchen. Die Betreuung ist bewusst hands-on – von der kurzen Rückfrage vor der Einheit bis zur täglichen Abstimmung."
+    },
+    {
+      "question": "Was heißt Day-to-day-Planung?",
+      "answer": "Statt eines starren Wochenplans können wir Ihr Training bei Bedarf jeden Tag neu festlegen – passend zu Ihrer Form, Ihrem Schlaf und Ihrem Terminkalender."
+    },
+    {
       "question": "Für wen ist das Coaching geeignet?",
-      "answer": "Für alle, die strukturiert trainieren wollen – vom ersten Sprint-Triathlon bis zur Langdistanz."
-    },
-    {
-      "question": "Welche Plattform nutzen Sie?",
-      "answer": "[z. B. TrainingPeaks – bitte anpassen]"
-    },
-    {
-      "question": "Wie lange ist die Mindestlaufzeit?",
-      "answer": "[bitte eintragen]"
+      "answer": "Für ambitionierte Athletinnen und Athleten, die eine enge, persönliche Begleitung wollen – vom ersten Triathlon bis zur Langdistanz."
     }
   ]
 }

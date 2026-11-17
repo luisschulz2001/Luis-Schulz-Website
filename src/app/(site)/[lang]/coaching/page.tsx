@@ -39,6 +39,19 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
             <p className="text-sm tracking-wide text-gold">{o.audience}</p>
             <h2 className="h-display mt-4 text-5xl md:text-6xl">{o.title}</h2>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75">{o.text}</p>
+            {o.highlights.length > 0 && (
+              <dl className="mt-10 grid gap-6 border-t border-white/10 pt-8 sm:grid-cols-3">
+                {o.highlights.map((h) => (
+                  <div key={h.label}>
+                    <dt className="sr-only">{h.label}</dt>
+                    <dd>
+                      <span className="block font-serif text-4xl text-gold italic">{h.value}</span>
+                      <span className="mt-1 block text-sm text-white/60">{h.label}</span>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            )}
             <div className="mt-auto pt-12">
               <p className="h-section text-3xl">{o.price}</p>
               {o.note && <p className="mt-2 text-sm text-white/55">{o.note}</p>}
