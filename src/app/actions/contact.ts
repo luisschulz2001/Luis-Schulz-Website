@@ -5,7 +5,7 @@ import { getSettings } from "@/lib/content";
 
 export type ContactState = { status: "idle" | "success" | "error" | "invalid" };
 
-const topics = ["coaching", "partners", "press", "general"] as const;
+const topics = ["coaching", "talks", "partners", "press", "general"] as const;
 type Topic = (typeof topics)[number];
 
 /**
@@ -16,11 +16,13 @@ function recipientFor(topic: Topic) {
   const s = getSettings();
   const env = {
     coaching: process.env.CONTACT_TO_COACHING,
+    talks: process.env.CONTACT_TO_TALKS,
     partners: process.env.CONTACT_TO_PARTNERS,
     press: process.env.CONTACT_TO_PRESS,
     general: process.env.CONTACT_TO_GENERAL,
   }[topic];
-  return env || s.emails[topic] || process.env.CONTACT_TO_GENERAL || s.emails.general;
+  const fromCms = topic === "talks" ? s.emails.coaching : s.emails[topic];
+  return env || fromCms || process.env.CONTACT_TO_GENERAL || s.emails.general;
 }
 
 const escape = (v: string) =>

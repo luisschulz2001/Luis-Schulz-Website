@@ -40,7 +40,7 @@ export type Settings = {
   };
 };
 
-export type PageKey = "home" | "about" | "races" | "coaching" | "partners" | "contact";
+export type PageKey = "home" | "about" | "races" | "coaching" | "talks" | "partners" | "contact";
 
 export type HomeContent = {
   seo: Seo;
@@ -122,9 +122,39 @@ export type Race = {
   status: "upcoming" | "completed";
   placement: string;
   time: string;
+  swim: string;
+  bike: string;
+  run: string;
   note_de: string;
   note_en: string;
   link: string | null;
+};
+
+export type TalksContent = {
+  seo: Seo;
+  title: string;
+  lead: string;
+  image: string | null;
+  imageCaption: string;
+  topicsTitle: string;
+  topics: { title: string; text: string }[];
+  formatsTitle: string;
+  formats: { title: string; text: string }[];
+  ctaTitle: string;
+  ctaText: string;
+};
+
+export type Report = {
+  title: string;
+  published: boolean;
+  date: string;
+  race: string | null;
+  cover: string | null;
+  excerpt_de: string;
+  body_de: string;
+  title_en: string;
+  excerpt_en: string;
+  body_en: string;
 };
 
 export type Partner = { name: string; logo: string | null; url: string | null; order: number };
@@ -144,6 +174,7 @@ export const getAbout = (l: Locale) => readJson<AboutContent>(`${l}/about.json`)
 export const getRacesPage = (l: Locale) => readJson<RacesContent>(`${l}/races.json`);
 export const getCoaching = (l: Locale) => readJson<CoachingContent>(`${l}/coaching.json`);
 export const getPartnersPage = (l: Locale) => readJson<PartnersContent>(`${l}/partners.json`);
+export const getTalks = (l: Locale) => readJson<TalksContent>(`${l}/talks.json`);
 export const getContact = (l: Locale) => readJson<ContactContent>(`${l}/contact.json`);
 export const getLegal = (l: Locale) => readJson<LegalContent>(`${l}/legal.json`);
 
@@ -163,3 +194,51 @@ export const getPartners = () =>
 
 export const getTestimonials = () =>
   readCollection<Testimonial>("testimonials").sort((a, b) => a.order - b.order);
+
+/** Veröffentlichte Rennberichte, neueste zuerst */
+export const getReports = () =>
+  readCollection<Report>("reports")
+    .filter((r) => r.published)
+    .sort((a, b) => b.date.localeCompare(a.date));
+
+/** Bericht in der gewünschten Sprache (Englisch fällt auf Deutsch zurück) */
+export function localizeReport(r: Report & { slug: string }, l: Locale) {
+  const en = l === "en" && r.body_en.trim().length > 0;
+  return {
+    slug: r.slug,
+    date: r.date,
+    race: r.race,
+    cover: r.cover,
+    title: en && r.title_en ? r.title_en : r.title,
+    excerpt: en && r.excerpt_en ? r.excerpt_en : r.excerpt_de,
+    body: en ? r.body_en : r.body_de,
+    fallback: l === "en" && !en,
+  };
+}
+
+/** Zeit "h:mm:ss" oder "h:mm" in Sekunden */
+export function toSeconds(t: string): number | null {
+  const parts = t.trim().split(":").map(Number);
+  if (parts.length < 2 || parts.some((n) => Number.isNaN(n))) return null;
+  const [h, m, sec = 0] = parts;
+  return h * 3600 + m * 60 + sec;
+}
+
+/** Die beiden letzten Rennen mit vollständigen Splits – für die Entwicklungs-Grafik */
+export function getProgress() {
+  const withSplits = getRaces()
+    .completed.filter((r) => [r.time, r.swim, r.bike, r.run].every((t) => t && toSeconds(t) !== null))
+    .sort((a, b) => a.date.localeCompare(b.date));
+  if (withSplits.length < 2) return null;
+  const [before, after] = withSplits.slice(-2);
+  const seconds = (r: Race) => ({
+    total: toSeconds(r.time)!,
+    swim: toSeconds(r.swim)!,
+    bike: toSeconds(r.bike)!,
+    run: toSeconds(r.run)!,
+  });
+  return {
+    before: { name: before.name, year: before.date.slice(0, 4), ...seconds(before) },
+    after: { name: after.name, year: after.date.slice(0, 4), ...seconds(after) },
+  };
+}

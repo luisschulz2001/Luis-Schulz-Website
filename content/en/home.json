@@ -4,7 +4,7 @@
     "description": "I'm Luis, a pro triathlete and coach from the Munich area. Here you'll find my races, my coaching and how you can support me."
   },
   "heroEyebrow": "Pro triathlete · Coach",
-  "heroTitle": "I'm Luis. Pro triathlete and coach.",
+  "heroTitle": "I'm Luis.\nPro triathlete and coach.",
   "heroText": "I'm from the Munich area and I love long-distance racing. I also coach a few athletes whom I support personally.",
   "heroImage": "/images/home/roth-rad-zuschauer.jpg",
   "introTitle": "Good to have you here",
@@ -19,6 +19,11 @@
       "title": "Coaching",
       "text": "I coach you personally and plan your training in TrainingPeaks. I reply to messages within 3 hours.",
       "href": "coaching"
+    },
+    {
+      "title": "Talks",
+      "text": "Talks and workshops for clubs and teams, for example on nutrition around training and competition.",
+      "href": "talks"
     },
     {
       "title": "Partners",

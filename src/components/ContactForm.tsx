@@ -16,12 +16,17 @@ export function ContactForm({
 }) {
   const [state, action, pending] = useActionState<ContactState, FormData>(sendContact, { status: "idle" });
   const topicsRef = useRef<HTMLFieldSetElement>(null);
+  const messageRef = useRef<HTMLTextAreaElement>(null);
 
   // Vorauswahl über Link, z. B. /de/contact?topic=partners
   useEffect(() => {
     const fromUrl = new URLSearchParams(window.location.search).get("topic");
     const input = topicsRef.current?.querySelector<HTMLInputElement>(`input[value="${fromUrl}"]`);
     if (input) input.checked = true;
+    // z. B. aus dem Coaching-Check
+    const message = new URLSearchParams(window.location.search).get("message");
+    const textarea = messageRef.current;
+    if (message && textarea && !textarea.value) textarea.value = message.slice(0, 2000);
   }, []);
 
   if (state.status === "success") {
@@ -68,7 +73,7 @@ export function ContactForm({
 
       <label className="block">
         <span className="mb-2 block text-sm font-medium">{t.message}</span>
-        <textarea name="message" required rows={6} className="field resize-y" />
+        <textarea ref={messageRef} name="message" required rows={7} className="field resize-y" />
       </label>
 
       <label className="flex items-start gap-3 text-sm text-muted">

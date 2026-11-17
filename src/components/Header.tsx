@@ -55,7 +55,7 @@ export function Header({
           <span className="hidden h-1.5 w-1.5 rounded-full bg-gold sm:inline-block" aria-hidden />
         </Link>
 
-        <nav className="hidden items-center gap-8 lg:flex" aria-label="Hauptnavigation">
+        <nav className="hidden items-center gap-8 xl:flex" aria-label="Hauptnavigation">
           {items.map((item) => (
             <Link
               key={item.href}
@@ -69,7 +69,7 @@ export function Header({
           ))}
         </nav>
 
-        <div className="hidden items-center gap-4 lg:flex">
+        <div className="hidden items-center gap-4 xl:flex">
           <Link href={switchHref} hrefLang={otherLocale} className="text-sm text-muted hover:text-ink">
             {languageLabel}
           </Link>
@@ -80,7 +80,7 @@ export function Header({
 
         <button
           type="button"
-          className="-mr-2 flex h-10 w-10 items-center justify-center lg:hidden"
+          className="-mr-2 flex h-10 w-10 items-center justify-center xl:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
           aria-label={open ? closeLabel : menuLabel}
@@ -94,7 +94,7 @@ export function Header({
       </div>
 
       {open && (
-        <nav id="mobile-nav" className="container-page pb-8 lg:hidden" aria-label="Mobile Navigation">
+        <nav id="mobile-nav" className="container-page pb-8 xl:hidden" aria-label="Mobile Navigation">
           <ul className="divide-y divide-line border-t border-line">
             {items.map((item) => (
               <li key={item.href}>

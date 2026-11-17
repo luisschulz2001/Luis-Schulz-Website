@@ -33,7 +33,7 @@ export async function Footer({ locale, dict, settings }: { locale: Locale; dict:
         </div>
         <nav className="md:col-span-3" aria-label="Footer">
           <ul className="space-y-2">
-            {(["about", "races", "coaching", "partners", "contact"] as const).map((key) => (
+            {(["about", "races", "coaching", "talks", "partners", "contact"] as const).map((key) => (
               <li key={key}>
                 <Link href={href(locale, key)} className="hover:text-white">
                   {dict.nav[key]}

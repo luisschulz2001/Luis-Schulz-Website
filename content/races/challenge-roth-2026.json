@@ -6,7 +6,10 @@
   "status": "completed",
   "placement": "Top 10 Age-Grouper",
   "time": "8:28:20",
-  "note_de": "Mein zweiter Start in Roth, zwölf Minuten schneller als im Vorjahr. Swim 1:03:14 · Bike 4:24:00 · Run 2:56:29",
-  "note_en": "My second start in Roth, twelve minutes faster than the year before. Swim 1:03:14 · Bike 4:24:00 · Run 2:56:29",
-  "link": null
+  "note_de": "Mein zweiter Start in Roth, zwölf Minuten schneller als im Vorjahr.",
+  "note_en": "My second start in Roth, twelve minutes faster than the year before.",
+  "link": null,
+  "swim": "1:03:14",
+  "bike": "4:24:00",
+  "run": "2:56:29"
 }

@@ -60,7 +60,7 @@ function pages(code: string, label: string) {
       schema: {
         seo,
         heroEyebrow: fields.text({ label: "Hero – kleine Zeile über der Überschrift" }),
-        heroTitle: fields.text({ label: "Hero – Überschrift" }),
+        heroTitle: fields.text({ label: "Hero – Überschrift", multiline: true, description: "Zeilenumbruch = neue Zeile in der Überschrift" }),
         heroText: fields.text({ label: "Hero – Text", multiline: true }),
         heroImage: heroImage("home"),
         introTitle: fields.text({ label: "Intro – Überschrift" }),
@@ -75,6 +75,7 @@ function pages(code: string, label: string) {
                 { label: "Über mich", value: "about" },
                 { label: "Rennen", value: "races" },
                 { label: "Coaching", value: "coaching" },
+                { label: "Vorträge", value: "talks" },
                 { label: "Partner", value: "partners" },
                 { label: "Kontakt", value: "contact" },
               ],
@@ -212,6 +213,36 @@ function pages(code: string, label: string) {
         ctaText: fields.text({ label: "Anfrage – Text", multiline: true }),
       },
     }),
+    [`talks_${code}`]: singleton({
+      label: `Vorträge & Workshops (${label})`,
+      path: p("talks"),
+      format: { data: "json" },
+      schema: {
+        seo,
+        title: fields.text({ label: "Überschrift" }),
+        lead: fields.text({ label: "Einleitung", multiline: true }),
+        image: heroImage("talks"),
+        imageCaption: fields.text({ label: "Bildunterschrift" }),
+        topicsTitle: fields.text({ label: "Themen – Überschrift" }),
+        topics: fields.array(
+          fields.object({
+            title: fields.text({ label: "Thema" }),
+            text: fields.text({ label: "Beschreibung", multiline: true }),
+          }),
+          { label: "Themen", itemLabel: (i) => i.fields.title.value || "Thema" },
+        ),
+        formatsTitle: fields.text({ label: "Formate – Überschrift" }),
+        formats: fields.array(
+          fields.object({
+            title: fields.text({ label: "Format" }),
+            text: fields.text({ label: "Beschreibung", multiline: true }),
+          }),
+          { label: "Formate", itemLabel: (i) => i.fields.title.value || "Format" },
+        ),
+        ctaTitle: fields.text({ label: "Anfrage – Überschrift" }),
+        ctaText: fields.text({ label: "Anfrage – Text", multiline: true }),
+      },
+    }),
     [`contact_${code}`]: singleton({
       label: `Kontakt (${label})`,
       path: p("contact"),
@@ -244,7 +275,7 @@ export default config({
     brand: { name: "Luis Schulz – Website" },
     navigation: {
       Allgemein: ["settings"],
-      "Rennen, Partner & Stimmen": ["races", "partners", "testimonials"],
+      "Rennen, Berichte, Partner & Stimmen": ["races", "reports", "partners", "testimonials"],
       "Seiten – Deutsch": Object.keys(pages("de", "")),
       "Pages – English": Object.keys(pages("en", "")),
     },
@@ -317,10 +348,48 @@ export default config({
           defaultValue: "upcoming",
         }),
         placement: fields.text({ label: "Platzierung (z. B. „3.“ oder „1. AK 25–29“)" }),
-        time: fields.text({ label: "Zeit (z. B. 4:12:35)" }),
+        time: fields.text({ label: "Gesamtzeit (z. B. 8:28:20)" }),
+        swim: fields.text({ label: "Swim-Zeit (z. B. 1:03:14) – optional" }),
+        bike: fields.text({ label: "Bike-Zeit (z. B. 4:24:00) – optional" }),
+        run: fields.text({ label: "Run-Zeit (z. B. 2:56:29) – optional" }),
         note_de: fields.text({ label: "Notiz (Deutsch)", multiline: true }),
         note_en: fields.text({ label: "Notiz (Englisch)", multiline: true }),
         link: fields.url({ label: "Link (Ergebnisse / Bericht)" }),
+      },
+    }),
+    reports: collection({
+      label: "Rennberichte",
+      path: "content/reports/*",
+      slugField: "title",
+      format: { data: "json" },
+      columns: ["title", "date"],
+      schema: {
+        title: fields.slug({ name: { label: "Titel (Deutsch)" } }),
+        published: fields.checkbox({
+          label: "Veröffentlicht",
+          description: "Erst wenn angehakt, erscheint der Bericht auf der Website.",
+        }),
+        date: fields.date({ label: "Datum", validation: { isRequired: true } }),
+        race: fields.relationship({ label: "Zugehöriges Rennen (optional)", collection: "races" }),
+        cover: fields.image({
+          label: "Titelbild",
+          directory: "public/images/reports",
+          publicPath: "/images/reports/",
+        }),
+        excerpt_de: fields.text({ label: "Kurzfassung (Deutsch)", multiline: true }),
+        body_de: fields.text({
+          label: "Bericht (Deutsch)",
+          multiline: true,
+          description:
+            "Leerzeile = neuer Absatz · Zeile mit „## “ = Zwischenüberschrift · Zeile mit „- “ = Aufzählung",
+        }),
+        title_en: fields.text({ label: "Titel (Englisch) – optional" }),
+        excerpt_en: fields.text({ label: "Kurzfassung (Englisch) – optional", multiline: true }),
+        body_en: fields.text({
+          label: "Bericht (Englisch) – optional",
+          multiline: true,
+          description: "Leer lassen: Auf der englischen Seite erscheint dann der deutsche Text mit Hinweis.",
+        }),
       },
     }),
     partners: collection({

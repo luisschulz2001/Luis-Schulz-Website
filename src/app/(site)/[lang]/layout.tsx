@@ -42,13 +42,21 @@ export default async function SiteLayout({ children, params }: LayoutProps<"/[la
   const dict = getDictionary(lang);
   const settings = getSettings();
 
-  const items = (["about", "races", "coaching", "partners", "contact"] as const).map((key) => ({
+  const items = (["about", "races", "coaching", "talks", "partners", "contact"] as const).map((key) => ({
     href: href(lang, key),
     label: dict.nav[key],
   }));
 
   return (
-    <html lang={lang} className={`${inter.variable} ${interTight.variable} ${instrumentSerif.variable}`}>
+    <html
+      lang={lang}
+      className={`${inter.variable} ${interTight.variable} ${instrumentSerif.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        {/* Markiert, dass JavaScript läuft – erst dann werden Einblend-Effekte aktiv */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+      </head>
       <body className="flex min-h-screen flex-col">
         <Header
           locale={lang}

@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/Arrow";
 import { CtaBand } from "@/components/CtaBand";
+import { FitCheck } from "@/components/FitCheck";
+import { Reveal } from "@/components/Reveal";
 import { RichText } from "@/components/RichText";
 import { Visual } from "@/components/Visual";
 import { getCoaching, getContact } from "@/lib/content";
@@ -37,7 +39,7 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
       </section>
 
       {/* Angebot */}
-      <section className="container-page mt-24 md:mt-32">
+      <Reveal as="section" className="container-page mt-24 md:mt-32">
         <p className="eyebrow mb-6">{t.coaching.offer}</p>
         <article className="relative grid overflow-hidden rounded-[2rem] bg-ink text-white lg:grid-cols-12">
           <div className="pointer-events-none absolute -bottom-32 -left-32 h-96 w-96 rounded-full border border-white/5" aria-hidden />
@@ -85,11 +87,11 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
             </ul>
           </div>
         </article>
-      </section>
+      </Reveal>
 
       {/* Trainingsphilosophie */}
       {c.philosophyText && (
-        <section className="container-page mt-24 grid gap-10 md:mt-32 lg:grid-cols-12 lg:gap-16">
+        <Reveal as="section" className="container-page mt-24 grid gap-10 md:mt-32 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
             <h2 className="h-section text-4xl md:text-5xl">{c.philosophyTitle}</h2>
             {c.philosophyQuote && (
@@ -99,8 +101,13 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
             )}
           </div>
           <RichText text={c.philosophyText} className="lg:col-span-6 lg:col-start-7" />
-        </section>
+        </Reveal>
       )}
+
+      {/* Coaching-Check */}
+      <Reveal as="section" className="container-page mt-24 md:mt-32">
+        <FitCheck t={t.fit} contactHref={href(lang, "contact")} />
+      </Reveal>
 
       {/* Ablauf */}
       {c.process.length > 0 && (
@@ -108,11 +115,11 @@ export default async function CoachingPage({ params }: PageProps<"/[lang]/coachi
           <h2 className="h-section mb-10 text-4xl md:text-5xl">{c.processTitle}</h2>
           <ol className="grid gap-px overflow-hidden rounded-[1.75rem] border border-line bg-line md:grid-cols-2 lg:grid-cols-4">
             {c.process.map((s, i) => (
-              <li key={s.title} className="bg-paper p-8">
+              <Reveal as="li" key={s.title} delay={i * 100} className="bg-paper p-8">
                 <p className="font-serif text-4xl text-gold italic">{i + 1}</p>
                 <h3 className="h-section mt-6 text-xl">{s.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{s.text}</p>
-              </li>
+              </Reveal>
             ))}
           </ol>
         </section>

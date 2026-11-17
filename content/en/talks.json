@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "title": "Talks & workshops – Luis Schulz",
+    "description": "Talks and workshops for clubs, teams and groups: nutrition around training and competition, sustainable training and my path to long distance."
+  },
+  "title": "Talks & workshops",
+  "lead": "I also share what I know with clubs, teams and groups. For example, I gave a talk to a basketball team about nutrition around training and game day.",
+  "image": "/images/coaching/vortrag-basketballteam.jpg",
+  "imageCaption": "Talk for a basketball team: nutrition around training and game day.",
+  "topicsTitle": "Topics",
+  "topics": [
+    {
+      "title": "Nutrition around training and competition",
+      "text": "What should I eat before, during and after training? And what does fuelling look like on game day or race day?"
+    },
+    {
+      "title": "Getting better sustainably",
+      "text": "How training load and recovery work together, and why the easy days matter as much as the hard ones."
+    },
+    {
+      "title": "My path to long distance",
+      "text": "From my first run in 2020 to Challenge Roth: what I learned about training, motivation and myself along the way."
+    }
+  ],
+  "formatsTitle": "What it can look like",
+  "formats": [
+    {
+      "title": "Talk",
+      "text": "A compact session with time for your questions. A good fit for team evenings or club events."
+    },
+    {
+      "title": "Workshop",
+      "text": "We work together on concrete questions from your everyday training."
+    },
+    {
+      "title": "By arrangement",
+      "text": "We'll agree on topic, length and format so it suits you."
+    }
+  ],
+  "ctaTitle": "Interested in a talk?",
+  "ctaText": "Tell me who the talk is for and which topic interests you. I'll get back to you with a suggestion."
+}

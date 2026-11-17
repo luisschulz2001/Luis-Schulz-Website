@@ -12,6 +12,8 @@ Zweisprachige Website (Deutsch / Englisch) mit selbst pflegbaren Inhalten.
 | `/…/about` | Über mich: Werdegang, Steckbrief |
 | `/…/races` | Saisonplanung & Ergebnisse |
 | `/…/coaching` | Angebote, Ablauf, FAQ |
+| `/…/talks` | Vorträge & Workshops |
+| `/…/reports/<name>` | Rennberichte (Liste auf der Seite „Rennen“) |
 | `/…/partners` | Partner & Sponsoren |
 | `/…/contact` | Kontaktformular (nach Anliegen sortiert) & Terminbuchung |
 | `/…/imprint`, `/…/privacy` | Impressum & Datenschutz |
@@ -41,6 +43,13 @@ Alle Texte, Bilder, Rennen, Partner und Stimmen werden im CMS unter `/keystatic`
 - **Partner & Sponsoren:** Logo, Website, Reihenfolge
 - **Stimmen / Referenzen:** Zitate von Athleten
 - **Seiten – Deutsch / Pages – English:** alle Seitentexte je Sprache
+
+**Rennberichte** schreibst Du unter „Rennberichte“. Erst wenn „Veröffentlicht“ angehakt ist, erscheint der Bericht.
+Verknüpfst Du ihn mit einem Rennen, steht dort automatisch ein Link und im Bericht ein Ergebnis-Kasten.
+Ein Entwurf für Roth 2025 mit Leitfragen liegt bereits an.
+
+**Entwicklungs-Grafik:** Sobald zwei absolvierte Rennen Swim-, Bike- und Run-Zeiten haben, vergleicht die
+Startseite automatisch die beiden letzten (aktuell Roth 2025 → 2026).
 
 Längere Textfelder unterstützen eine einfache Formatierung:
 Leerzeile = neuer Absatz · `## ` am Zeilenanfang = Zwischenüberschrift · `- ` = Aufzählung.

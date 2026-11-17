@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
+import { Reveal } from "@/components/Reveal";
 import { RichText } from "@/components/RichText";
 import { Visual } from "@/components/Visual";
 import { getAbout, getHome } from "@/lib/content";
@@ -50,7 +51,9 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
       {c.gallery.length > 0 && (
         <section className="container-page mt-24 grid gap-4 sm:grid-cols-3 md:mt-32">
           {c.gallery.map((g) => (
-            <Visual key={g.image ?? g.alt} src={g.image} alt={g.alt} className="aspect-[4/5]" sizes="(min-width: 640px) 33vw, 100vw" />
+            <Reveal key={g.image ?? g.alt} delay={c.gallery.indexOf(g) * 100}>
+              <Visual src={g.image} alt={g.alt} className="aspect-[4/5]" sizes="(min-width: 640px) 33vw, 100vw" />
+            </Reveal>
           ))}
         </section>
       )}
@@ -59,12 +62,12 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
         <section className="container-page mt-24 md:mt-32">
           <h2 className="h-section mb-10 text-4xl md:text-5xl">{t.about.timeline}</h2>
           <ol className={`grid gap-4 md:grid-cols-2 ${c.timeline.length === 5 ? "lg:grid-cols-5" : c.timeline.length === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}>
-            {c.timeline.map((m) => (
-              <li key={`${m.year}-${m.title}`} className="rounded-[1.5rem] border border-line bg-surface p-7">
+            {c.timeline.map((m, i) => (
+              <Reveal as="li" key={`${m.year}-${m.title}`} delay={i * 100} className="rounded-[1.5rem] border border-line bg-surface p-7">
                 <p className="font-serif text-3xl text-accent italic">{m.year}</p>
                 <h3 className="h-section mt-6 text-xl">{m.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{m.text}</p>
-              </li>
+              </Reveal>
             ))}
           </ol>
         </section>
